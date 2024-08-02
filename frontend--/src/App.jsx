@@ -4,6 +4,7 @@ import axios from 'axios';
 function App() {
   const [cards, setCards] = useState([]);
   const [numPlayers, setNumPlayers] = useState(3);
+  const [age, setAge] = useState(4);
 
   const fetchData = async () => {
     try {
@@ -21,35 +22,33 @@ function App() {
   const handleNumPlayersChange = (e) => {
     setNumPlayers(e.target.value);
   };
+  const handleAgeChange = (e) => {
+    setAge(e.target.value);
+  }
 
-  const handleNumPlayersSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/data/numPlayers', { numPlayers: numPlayers });
+      const response = await axios.post('http://localhost:5000/data/numPlayers', { numPlayers, age });
       setCards(response.data); // Update the cards state with the filtered cards
     } catch (error) {
-      console.error('Error submitting number of players:', error);
+      console.error('Error submitting data:', error);
     }
   };
 
-  
-
-
   return (      // Display the data
     <div>
-      <h1>Card Data</h1>
-      {/*<form>
-              <select>
-                <option>basic materials</option>
-                <option>manufactured products</option>
-                <option>civil buildings</option>
-                <option>comercial buildings</option>
-                <option>military buildings</option>
-                <option>science buildings</option>
-                <option>guilds</option>
-                </select>      </form>*/}
-
-<form onSubmit={handleNumPlayersSubmit}>
+       <h1>Card Data</h1>
+      <form onSubmit={handleSubmit}>
+        <label>
+          Age:
+          <select value={age} onChange={handleAgeChange}>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">all</option>
+          </select>
+        </label>
         <label>
           Number of Players:
           <select value={numPlayers} onChange={handleNumPlayersChange}>
@@ -63,13 +62,17 @@ function App() {
         </label>
         <button type="submit">Submit</button>
       </form>
+      <div></div>
 
       <div>
         <h2>Cards</h2>
         <ul>
           {cards.map((card, index) => (
             <li key={index}>
-              {card.name} - Number of Players: {card.numPlayers}
+              <strong>{card.name}</strong><br />
+               - Number of Players: {card.numPlayers}<br />
+                - Age: {card.age}<br />
+                
               </li>
           ))}
         </ul>
