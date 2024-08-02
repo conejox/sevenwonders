@@ -628,13 +628,13 @@
             },
             "monedas": -1
             ,"camello":1
-          },
+          }},
         
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
         
-    }}, 
+    }, 
     {
         "nombre": "marketplace",
         "tipo": "estructura_comercial",
@@ -663,12 +663,12 @@
             },
             "monedas": -1
             ,"camello":1
-          },
+          }},
         
         "numero_jugadores": 6,
         "era": 1,
         "cantidad": 1
-    }},  
+    },  
      {
         "nombre": "scriptorium",
         "tipo": "ciencia",
@@ -953,11 +953,11 @@
         "beneficio": {
           "opcion1": {
             "piedra": 2
-          }, 
+          }}, 
         "numero_jugadores": 4,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "quarry",
         "tipo": "materia prima",
         "coste": {
@@ -1003,11 +1003,11 @@
         "beneficio": {
           "opcion1": {
             "arcilla": 2
-          }, 
+          }}, 
         "numero_jugadores": 4,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "foundry",
         "tipo": "materia prima",
         "coste": {
@@ -1138,11 +1138,11 @@
                 "arcilla": 1
         },  "opcion5": {
             "faro": 1
-        },
+        }},
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "caravansery",
         "tipo": "estructura comercial",
         "coste":  {
@@ -1167,11 +1167,11 @@
                 "arcilla": 1
         },  "opcion5": {
             "faro": 1
-        },
+        }},
         "numero_jugadores": 5,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "caravansery",
         "tipo": "estructura comercial",
         "coste":  {
@@ -1196,11 +1196,11 @@
                 "arcilla": 1
         },  "opcion5": {
             "faro": 1
-        },
+        }},
         "numero_jugadores": 6,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "forum",
         "tipo": "estructura comercial",
         "coste":  {
@@ -1717,7 +1717,7 @@
              "opcion2":{
               "gota":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 5
@@ -1727,7 +1727,7 @@
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "aqueduct",
         "tipo": "estructura civil",
         "coste": {
@@ -1738,7 +1738,7 @@
              "opcion2":{
               "gota":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 5
@@ -1748,7 +1748,7 @@
         "numero_jugadores": 7,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "courthouse",
         "tipo": "estructura civil",
         "coste": {
@@ -1760,7 +1760,7 @@
              "opcion2":{
               "balanza":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 4
@@ -1770,7 +1770,7 @@
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "courthouse",
         "tipo": "estructura civil",
         "coste": {
@@ -1782,7 +1782,7 @@
              "opcion2":{
               "balanza":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 4
@@ -1792,7 +1792,7 @@
         "numero_jugadores": 5,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
       "nombre": "statue",
       "tipo": "estructura civil",
       "coste": {
@@ -1804,7 +1804,7 @@
            "opcion2":{
             "martillo":1
 
-           },
+           }},
       "beneficio": {
         "opcion1": {
           "puntos de victoria": 4
@@ -1814,7 +1814,7 @@
       "numero_jugadores": 3,
       "era": 2,
       "cantidad": 1
-    }},{
+    },{
         "nombre": "statue",
         "tipo": "estructura civil",
         "coste": {
@@ -1826,7 +1826,7 @@
              "opcion2":{
               "martillo":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 4
@@ -1836,7 +1836,7 @@
         "numero_jugadores": 7,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "temple",
         "tipo": "estructura civil",
         "coste": {
@@ -1851,11 +1851,11 @@
             "puntos de victoria": 4
   
           }
-        },
+        }},
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "temple",
         "tipo": "estructura civil",
         "coste": {
@@ -1864,7 +1864,7 @@
               "madera":1,
               "vidrio":1
               
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 4
@@ -1874,7 +1874,7 @@
         "numero_jugadores": 6,
         "era": 2,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "town hall",
         "tipo": "estructura civil",
         "coste": {
@@ -1883,7 +1883,7 @@
               "mineral":1,
               "vidrio":1
               
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 6
@@ -1893,7 +1893,8 @@
         "numero_jugadores": 6,
         "era": 3,
         "cantidad": 1
-      }},{
+      }
+      ,{
         "nombre": "town hall",
         "tipo": "estructura civil",
         "coste": {
@@ -1902,7 +1903,7 @@
               "mineral":1,
               "vidrio":1
               
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 6
@@ -1912,7 +1913,7 @@
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "palace",
         "tipo": "estructura civil",
         "coste": {
@@ -1925,7 +1926,7 @@
               "papel":1,
               "tela":1
               
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 8
@@ -1935,7 +1936,7 @@
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      }},{
+        },{
         "nombre": "palace",
         "tipo": "estructura civil",
         "coste": {
@@ -1948,7 +1949,7 @@
               "papel":1,
               "tela":1
               
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 8
@@ -1958,7 +1959,7 @@
         "numero_jugadores": 7,
         "era": 3,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "pantheon",
         "tipo": "estructura civil",
         "coste": {
@@ -2009,7 +2010,7 @@
         "era": 3,
         "cantidad": 1
       },{
-        "nombre": "senado",
+        "nombre": "senate",
         "tipo": "estructura civil",
         "coste": {
             "opcion1": {
@@ -2021,7 +2022,7 @@
              "opcion2":{
               "estructura":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 6
@@ -2031,8 +2032,8 @@
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      }},{
-        "nombre": "senado",
+      },{
+        "nombre": "senate",
         "tipo": "estructura civil",
         "coste": {
             "opcion1": {
@@ -2044,7 +2045,7 @@
              "opcion2":{
               "estructura":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 6
@@ -2054,7 +2055,7 @@
         "numero_jugadores": 5,
         "era": 3,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "gardens",
         "tipo": "estructura civil",
         "coste": {
@@ -2066,7 +2067,7 @@
              "opcion2":{
               "mascara":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 5
@@ -2076,7 +2077,7 @@
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "gardens",
         "tipo": "estructura civil",
         "coste": {
@@ -2088,7 +2089,7 @@
              "opcion2":{
               "mascara":1
   
-             },
+             }},
         "beneficio": {
           "opcion1": {
             "puntos de victoria": 5
@@ -2098,7 +2099,7 @@
         "numero_jugadores": 4,
         "era": 3,
         "cantidad": 1
-      }},{
+      },{
         "nombre": "siege workshop",
         "tipo": "estructura militar",
         "coste": {
