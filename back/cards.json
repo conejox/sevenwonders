@@ -431,7 +431,7 @@
       }
         ,{
         "nombre": "east trading post",
-        "tipo": "estructura_comercial",
+        "tipo": "estructura comercial",
         "coste": {
           "opcion1": 0
         },
@@ -474,7 +474,7 @@
         
     },{
         "nombre": "east trading post",
-        "tipo": "estructura_comercial",
+        "tipo": "estructura comercial",
         "coste": {
           "opcion1": 0
         },
@@ -517,7 +517,7 @@
         
     },{
         "nombre": "west trading post",
-        "tipo": "estructura_comercial",
+        "tipo": "estructura comercial",
         "coste": {
           "opcion1": 0
         },
@@ -560,7 +560,7 @@
         
     },{
         "nombre": "west trading post",
-        "tipo": "estructura_comercial",
+        "tipo": "estructura comercial",
         "coste": {
           "opcion1": 0
         },
@@ -603,7 +603,7 @@
         
     },{
         "nombre":"marketplace",
-        "tipo": "estructura_comercial",
+        "tipo": "estructura comercial",
         "coste": 0,
 
         "beneficio": {
@@ -637,7 +637,7 @@
     }, 
     {
         "nombre": "marketplace",
-        "tipo": "estructura_comercial",
+        "tipo": "estructura comercial",
         "coste": {
           "opcion1": 0
          },
