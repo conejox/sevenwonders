@@ -6,6 +6,7 @@ function App() {
   const [numPlayers, setNumPlayers] = useState(3);
   const [age, setAge] = useState(4);
   const [type, setType] = useState(["materia prima"]);
+  const [hasGold, setHasGold] = useState(false);
 
   const fetchData = async () => {
     try {
@@ -19,7 +20,7 @@ function App() {
   useEffect(() => {
     fetchData();
   }, []);
-
+// handle the changes in the filters
   const handleNumPlayersChange = (e) => {
     setNumPlayers(e.target.value);
   };
@@ -29,11 +30,16 @@ function App() {
   const handleTypeChange = (e) => {
     setType(e.target.value);
   }
+  const handleHasGoldChange = (e) => {
+    setHasGold(e.target.checked);
+  };
 
+// take the filtered data and send it to the backend
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/data/numPlayers', { numPlayers, age, type });
+      const response = await axios.post('http://localhost:5000/data/numPlayers', 
+        { numPlayers, age, type,hasGold });
       setCards(response.data); // Update the cards state with the filtered cards
     } catch (error) {
       console.error('Error submitting data:', error);
@@ -79,9 +85,13 @@ function App() {
             <option value="10">10</option>
           </select>
         </label>
+        <label>
+           Gold:
+          <input type="checkbox" checked={hasGold} onChange={handleHasGoldChange} />
+        </label>
         <button type="submit">Submit</button>
       </form>
-      <div></div>
+      
 
       <div>
         <h2>Cards</h2>
