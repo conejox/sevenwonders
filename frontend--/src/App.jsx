@@ -6,7 +6,11 @@ function App() {
   const [numPlayers, setNumPlayers] = useState(3);
   const [age, setAge] = useState(4);
   const [type, setType] = useState([]);
-  const [hasGold, setHasGold] = useState(false);
+  const [Gold, setGold] = useState(false);
+  const [wool, setwool] = useState(false);
+  const [glass, setglass] = useState(false);
+  const [paper, setpaper] = useState(false);
+ 
 
   const fetchData = async () => {
     try {
@@ -30,8 +34,17 @@ function App() {
   const handleTypeChange = (e) => {
     setType(e.target.value);
   }
-  const handleHasGoldChange = (e) => {
-    setHasGold(e.target.checked);
+  const handleGoldChange = (e) => {
+    setGold(e.target.checked);
+  };
+  const handlewoolChange = (e) => {
+    setwool(e.target.checked);
+  };
+  const handleglassChange = (e) => {
+    setglass(e.target.checked);
+  };
+  const handlepaperChange = (e) => {
+    setpaper(e.target.checked);
   };
 
 // take the filtered data and send it to the backend
@@ -39,7 +52,7 @@ function App() {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5000/data/numPlayers', 
-        { numPlayers, age, type,hasGold });
+        { numPlayers, age, type,Gold,wool,glass,paper });
       setCards(response.data); // Update the cards state with the filtered cards
     } catch (error) {
       console.error('Error submitting data:', error);
@@ -87,7 +100,19 @@ function App() {
         </label>
         <label>
            Gold:
-          <input type="checkbox" checked={hasGold} onChange={handleHasGoldChange} />
+          <input type="checkbox" checked={Gold} onChange={handleGoldChange} />
+        </label>
+        <label>
+           wool:
+          <input type="checkbox" checked={wool} onChange={handlewoolChange} />
+        </label>
+        <label>
+           Glass:
+          <input type="checkbox" checked={glass} onChange={handleglassChange} />
+        </label>
+        <label>
+           paper:
+          <input type="checkbox" checked={paper} onChange={handlepaperChange} />
         </label>
         <button type="submit">Submit</button>
       </form>

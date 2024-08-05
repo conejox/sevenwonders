@@ -37,7 +37,10 @@ def numPlayers():
     num_players = int(request.json['numPlayers'])
     age = int(request.json['age'])
     type = str(request.json['type'])
-    has_gold = bool(request.json['hasGold'])
+    gold = bool(request.json['Gold'])
+    wool = bool(request.json['wool'])
+    glass = bool(request.json['glass'])
+    paper = bool(request.json['paper'])
     base_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(base_dir, 'cards.json')  # Use absolute path
     data = load_json(file_path)
@@ -56,7 +59,10 @@ def numPlayers():
         if item.get('numero_jugadores', 10)<= num_players 
         and (age == 4 or item.get('era') == age)
         and (type == 'all' or item.get('tipo') == type)
-        and (not has_gold or ('oro' in item['coste'] if isinstance(item.get('coste'), dict) else False))
+        and (not gold or ('oro' in item['coste'] if isinstance(item.get('coste'), dict) else False))
+        and (not wool or ('lana' in item['coste'] if isinstance(item.get('coste'), dict) else False))
+        and (not glass or ('vidrio' in item['coste'] if isinstance(item.get('coste'), dict) else False))
+        and (not paper or ('papel' in item['coste'] if isinstance(item.get('coste'), dict) else False))
         ]
     
     print(filtered_cards)
