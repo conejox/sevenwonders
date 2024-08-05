@@ -48,7 +48,7 @@ def numPlayers():
             'type': item.get('tipo', 'default_tipo'),
             'numPlayers': item.get('numero_jugadores', 10),
             'benefit': item.get('beneficio', {}),
-            'cost': item['coste'].get('opcion1', {}) if isinstance(item.get('coste', {}), dict) else {},
+            'cost': item['coste'] if isinstance(item.get('coste'), dict) else {},
             'age': item.get('era',4),
             'quantity': item.get('cantidad', 1)
         }
@@ -56,7 +56,7 @@ def numPlayers():
         if item.get('numero_jugadores', 10)<= num_players 
         and (age == 4 or item.get('era') == age)
         and (type == 'all' or item.get('tipo') == type)
-        and (not has_gold or ('oro' in item.get('coste', {}) if isinstance(item.get('coste', {}), dict) else False))
+        and (not has_gold or ('oro' in item['coste'] if isinstance(item.get('coste'), dict) else False))
         ]
     
     print(filtered_cards)

@@ -1,2939 +1,2507 @@
 [
-   
-      {
+    {
         "nombre": "forest cave",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
             "oro": 1
-            
-          }
         },
         "beneficio": {
             "opcion1": {
-              "madera": 1
+                "madera": 1
             },
             "opcion2": {
-              "mineral": 1
+                "mineral": 1
             }
         },
         "numero_jugadores": 5,
         "era": 1,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "clay pit",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
             "oro": 1
-          }
-       
         },
         "beneficio": {
-          "opcion1": {
-            "mineral": 1
-          },
-          "opcion2": {
-            "arcilla": 1
-          }
+            "opcion1": {
+                "mineral": 1
+            },
+            "opcion2": {
+                "arcilla": 1
+            }
         },
-        "numero_jugadores":3,
+        "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "timber yard",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
             "oro": 1
-          }
-        
         },
         "beneficio": {
-          "opcion1": {
-            "madera": 1
-          },
-          "opcion2": {
-            "piedra": 1
-          }
+            "opcion1": {
+                "madera": 1
+            },
+            "opcion2": {
+                "piedra": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      }, 
-      {
+    },
+    {
         "nombre": "excavation",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
             "oro": 1
-          }
-        
-          
         },
         "beneficio": {
-          "opcion1": {
-            "piedra": 1
-          },
-          "opcion2": {
-            "arcilla": 1
-          }
+            "opcion1": {
+                "piedra": 1
+            },
+            "opcion2": {
+                "arcilla": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 1,
         "cantidad": 1
-      }, 
-      {
+    },
+    {
         "nombre": "mine",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
             "oro": 1
-          }
-          
         },
         "beneficio": {
-          "opcion1": {
-            "piedra": 1
-          },
-          "opcion2": {
-            "mineral": 1
-          }
+            "opcion1": {
+                "piedra": 1
+            },
+            "opcion2": {
+                "mineral": 1
+            }
         },
         "numero_jugadores": 6,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "ore vein",
         "tipo": "materia prima",
         "coste": 0,
-        
         "beneficio": {
-          "opcion1": {
-            "mineral": 1
-          }
-        
+            "opcion1": {
+                "mineral": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "ore vein",
-        "tipo":"materia prima",
-        "coste":0,
-      
+        "tipo": "materia prima",
+        "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "mineral": 1
-          }
-        
+            "opcion1": {
+                "mineral": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "clay pool",
         "tipo": "materia prima",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "arcilla": 1
-          }
-          
+            "opcion1": {
+                "arcilla": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "clay pool",
         "tipo": "materia prima",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "arcilla": 1
-          }
-          
+            "opcion1": {
+                "arcilla": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "lumber yard",
         "tipo": "materia prima",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "madera": 1
-          }
-          
+            "opcion1": {
+                "madera": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "lumber yard",
         "tipo": "materia prima",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "madera": 1
-          }
-          
+            "opcion1": {
+                "madera": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 1,
         "cantidad": 1
-      } ,{
+    },
+    {
         "nombre": "stone pit",
         "tipo": "materia prima",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "piedra": 1
-          }
-         
+            "opcion1": {
+                "piedra": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "stone pit",
         "tipo": "materia prima",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "piedra": 1
-          }
-         
+            "opcion1": {
+                "piedra": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 1,
         "cantidad": 1
-      } ,{
+    },
+    {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "tela": 1
-          }
+            "opcion1": {
+                "tela": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "tela": 1
-          }
+            "opcion1": {
+                "tela": 1
+            }
         },
         "numero_jugadores": 6,
         "era": 1,
         "cantidad": 1
-      } , {
+    },
+    {
         "nombre": "press",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "papel": 1
-          }
+            "opcion1": {
+                "papel": 1
+            }
         },
         "numero_jugadores": 6,
         "era": 1,
         "cantidad": 1
-      } ,{
+    },
+    {
         "nombre": "press",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "papel": 1
-          }
+            "opcion1": {
+                "papel": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "glassworks",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "vidrio": 1
-          }
+            "opcion1": {
+                "vidrio": 1
+            }
         },
         "numero_jugadores": 6,
         "era": 1,
         "cantidad": 1
-      } ,{
+    },
+    {
         "nombre": "glassworks",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "vidrio": 1
-          }
+            "opcion1": {
+                "vidrio": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      } ,{
+    },
+    {
         "nombre": "barracks",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 1
-          }
+            "opcion1": {
+                "puntos militares": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "barracks",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 1
-          }
+            "opcion1": {
+                "puntos militares": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 1,
         "cantidad": 1
-      }
-      ,
-      {
+    },
+    {
         "nombre": "guard tower",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "arcilla": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 1
-          }
+            "opcion1": {
+                "puntos militares": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "guard tower",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "arcilla": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 1
-          }
+            "opcion1": {
+                "puntos militares": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 1,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "stockade",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "madera": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 1
-          }
+            "opcion1": {
+                "puntos militares": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "stockade",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "madera": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 1
-          }
+            "opcion1": {
+                "puntos militares": 1
+            }
         },
         "numero_jugadores": 7,
         "era": 1,
         "cantidad": 1
-      }
-       ,{
+    },
+    {
         "nombre": "tavern",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro": 5
-          }
-        },
-        "numero_jugadores": 4,
-        "era": 1,
-        "cantidad": 1
-      },{
-        "nombre": "tavern",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro": 5
-          }
-        },
-        "numero_jugadores": 5,
-        "era": 1,
-        "cantidad": 1
-      }, {
-        "nombre": "tavern",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro": 5
-          }
-        },
-        "numero_jugadores": 7,
-        "era": 1,
-        "cantidad": 1
-      }
-        ,{
-        "nombre": "east trading post",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "recurso_compra": {
-              "madera": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion2": {
-            "recurso_compra": {
-              "piedra": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-         
-            },
-           "opcion3": {
-            "recurso_compra": {
-              "mineral": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion4": {
-            "recurso_compra": {
-              "arcilla": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          }
-
-          },
-        
-        "numero_jugadores": 3,
-        "era": 1,
-        "cantidad": 1
-        
-    },{
-        "nombre": "east trading post",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "recurso_compra": {
-              "madera": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion2": {
-            "recurso_compra": {
-              "piedra": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-         
-            },
-           "opcion3": {
-            "recurso_compra": {
-              "mineral": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion4": {
-            "recurso_compra": {
-              "arcilla": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          }
-
-          },
-        
-        "numero_jugadores": 7,
-        "era": 1,
-        "cantidad": 1
-        
-    },{
-        "nombre": "west trading post",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "recurso_compra": {
-              "madera": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion2": {
-            "recurso_compra": {
-              "piedra": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-         
-            },
-           "opcion3": {
-            "recurso_compra": {
-              "mineral": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion4": {
-            "recurso_compra": {
-              "arcilla": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          }
-
-          },
-        
-        "numero_jugadores": 3,
-        "era": 1,
-        "cantidad": 1
-        
-    },{
-        "nombre": "west trading post",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "recurso_compra": {
-              "madera": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion2": {
-            "recurso_compra": {
-              "piedra": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-         
-            },
-           "opcion3": {
-            "recurso_compra": {
-              "mineral": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          },
-          "opcion4": {
-            "recurso_compra": {
-              "arcilla": 1
-            },
-            "monedas": -1
-            ,"toldo":1
-          }
-
-          },
-        
-        "numero_jugadores": 7,
-        "era": 1,
-        "cantidad": 1
-        
-    },{
-        "nombre":"marketplace",
         "tipo": "estructura comercial",
         "coste": 0,
-
         "beneficio": {
-          "opcion1": {
-            "recurso_compra": {
-              "vidrio": 1
+            "opcion1": {
+                "oro": 5
+            }
+        },
+        "numero_jugadores": 4,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
+        "nombre": "tavern",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "oro": 5
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
+        "nombre": "tavern",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "oro": 5
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
+        "nombre": "east trading post",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "recurso_compra": {
+                    "madera": 1
+                },
+                "monedas": -1,
+                "toldo": 1
             },
-            "monedas": -1
-            ,"camello":1
-          },
-          "opcion2": {
-            "recurso_compra": {
-              "tela": 1
+            "opcion2": {
+                "recurso_compra": {
+                    "piedra": 1
+                },
+                "monedas": -1,
+                "toldo": 1
             },
-            "monedas": -1
-            ,"camello":1
-         
+            "opcion3": {
+                "recurso_compra": {
+                    "mineral": 1
+                },
+                "monedas": -1,
+                "toldo": 1
             },
-           "opcion3": {
-            "recurso_compra": {
-              "papel": 1
-            },
-            "monedas": -1
-            ,"camello":1
-          }},
-        
+            "opcion4": {
+                "recurso_compra": {
+                    "arcilla": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            }
+        },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-        
-    }, 
+    },
+    {
+        "nombre": "east trading post",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "recurso_compra": {
+                    "madera": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion2": {
+                "recurso_compra": {
+                    "piedra": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion3": {
+                "recurso_compra": {
+                    "mineral": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion4": {
+                "recurso_compra": {
+                    "arcilla": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
+        "nombre": "west trading post",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "recurso_compra": {
+                    "madera": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion2": {
+                "recurso_compra": {
+                    "piedra": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion3": {
+                "recurso_compra": {
+                    "mineral": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion4": {
+                "recurso_compra": {
+                    "arcilla": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
+        "nombre": "west trading post",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "recurso_compra": {
+                    "madera": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion2": {
+                "recurso_compra": {
+                    "piedra": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion3": {
+                "recurso_compra": {
+                    "mineral": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            },
+            "opcion4": {
+                "recurso_compra": {
+                    "arcilla": 1
+                },
+                "monedas": -1,
+                "toldo": 1
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 1,
+        "cantidad": 1
+    },
     {
         "nombre": "marketplace",
         "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-         },
+        "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "recurso_compra": {
-              "vidrio": 1
+            "opcion1": {
+                "recurso_compra": {
+                    "vidrio": 1
+                },
+                "monedas": -1,
+                "camello": 1
             },
-            "monedas": -1
-            ,"camello":1
-          },
-          "opcion2": {
-            "recurso_compra": {
-              "tela": 1
+            "opcion2": {
+                "recurso_compra": {
+                    "tela": 1
+                },
+                "monedas": -1,
+                "camello": 1
             },
-            "monedas": -1
-            ,"camello":1
-         
-            },
-           "opcion3": {
-            "recurso_compra": {
-              "papel": 1
-            },
-            "monedas": -1
-            ,"camello":1
-          }},
-        
-        "numero_jugadores": 6,
-        "era": 1,
-        "cantidad": 1
-    },  
-     {
-        "nombre": "scriptorium",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "papel": 1
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "tableta": 1,
-            "balanza": 1,
-            "libro": 1
-          }
-          
+            "opcion3": {
+                "recurso_compra": {
+                    "papel": 1
+                },
+                "monedas": -1,
+                "camello": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
+        "nombre": "marketplace",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "recurso_compra": {
+                    "vidrio": 1
+                },
+                "monedas": -1,
+                "camello": 1
+            },
+            "opcion2": {
+                "recurso_compra": {
+                    "tela": 1
+                },
+                "monedas": -1,
+                "camello": 1
+            },
+            "opcion3": {
+                "recurso_compra": {
+                    "papel": 1
+                },
+                "monedas": -1,
+                "camello": 1
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
         "nombre": "scriptorium",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "papel": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "tableta": 1,
-            "balanza": 1,
-            "libro": 1
-          }
-          
+            "opcion1": {
+                "tableta": 1,
+                "balanza": 1,
+                "libro": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 1,
+        "cantidad": 1
+    },
+    {
+        "nombre": "scriptorium",
+        "tipo": "ciencia",
+        "coste": {
+            "papel": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "tableta": 1,
+                "balanza": 1,
+                "libro": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "apothecary",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "tela": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "compaz": 1,
-            "herradura": 1,
-            "mortero": 1
-          }
-          
+            "opcion1": {
+                "compaz": 1,
+                "herradura": 1,
+                "mortero": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "apothecary",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "tela": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "compaz": 1,
-            "herradura": 1,
-            "mortero": 1
-          }
-          
+            "opcion1": {
+                "compaz": 1,
+                "herradura": 1,
+                "mortero": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "workshop",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "vidrio": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje": 1,
-            "blanco": 1,
-            "lampara": 1
-          }
-          
+            "opcion1": {
+                "engranaje": 1,
+                "blanco": 1,
+                "lampara": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "workshop",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "vidrio": 1
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje": 1,
-            "blanco": 1,
-            "lampara": 1
-          }
-          
+            "opcion1": {
+                "engranaje": 1,
+                "blanco": 1,
+                "lampara": 1
+            }
         },
         "numero_jugadores": 7,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "altar",
         "tipo": "estructura civil",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "estrella":1
-
-          }
+            "opcion1": {
+                "puntos de victoria": 3,
+                "estrella": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "altar",
         "tipo": "estructura civil",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "estrella":1
-
-          }
+            "opcion1": {
+                "puntos de victoria": 3,
+                "estrella": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "well",
         "tipo": "estructura civil",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "martillo":1
-
-          }
+            "opcion1": {
+                "puntos de victoria": 3,
+                "martillo": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "well",
         "tipo": "estructura civil",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "martillo":1
-
-          }
+            "opcion1": {
+                "puntos de victoria": 3,
+                "martillo": 1
+            }
         },
         "numero_jugadores": 7,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "theater",
         "tipo": "estructura civil",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "mascara":1
-
-          }
+            "opcion1": {
+                "puntos de victoria": 3,
+                "mascara": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "theater",
         "tipo": "estructura civil",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "mascara":1
-
-          }
+            "opcion1": {
+                "puntos de victoria": 3,
+                "mascara": 1
+            }
         },
         "numero_jugadores": 6,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "baths",
         "tipo": "estructura civil",
         "coste": {
-          "opcion1": {
             "pedra": 1
-          }
-          
         },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "gota":1
-          }
-          
+            "opcion1": {
+                "puntos de victoria": 3,
+                "gota": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 1,
         "cantidad": 1
-      }, {
+    },
+    {
         "nombre": "baths",
         "tipo": "estructura civil",
         "coste": {
-          "opcion1": {
             "pedra": 1
-          }
-          
         },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 3,
-            "gota":1
-          }
-          
+            "opcion1": {
+                "puntos de victoria": 3,
+                "gota": 1
+            }
         },
         "numero_jugadores": 7,
         "era": 1,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "sawmill",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
-            "oro":1 
-          
-        
-          }
+            "oro": 1
         },
         "beneficio": {
-          "opcion1": {
-            "madera": 2
-          }
+            "opcion1": {
+                "madera": 2
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "sawmill",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
-            "oro":1 
-            
-          }
+            "oro": 1
         },
         "beneficio": {
-          "opcion1": {
-            "madera": 2
-          }
+            "opcion1": {
+                "madera": 2
+            }
         },
         "numero_jugadores": 4,
         "era": 2,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "quarry",
         "tipo": "materia prima",
         "coste": {
-          "opcion1":{
-            "oro":1 
-            
-          
-        }},
+            "oro": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "piedra": 2
-          }}, 
+            "opcion1": {
+                "piedra": 2
+            }
+        },
         "numero_jugadores": 4,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "quarry",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
-            "oro":1 
-            
-          }
+            "oro": 1
         },
         "beneficio": {
-          "opcion1": {
-            "piedra": 2
-          }
+            "opcion1": {
+                "piedra": 2
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "brickyard",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
-            "oro":1 
-            
-          }
+            "oro": 1
         },
         "beneficio": {
-          "opcion1": {
-            "arcilla": 2
-          }
+            "opcion1": {
+                "arcilla": 2
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "brickyard",
         "tipo": "materia prima",
         "coste": {
-          "opcion1": {
-            "oro":1 
-            
-          }
+            "oro": 1
         },
         "beneficio": {
-          "opcion1": {
-            "arcilla": 2
-          }}, 
-        "numero_jugadores": 4,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "foundry",
-        "tipo": "materia prima",
-        "coste": {
-          "opcion1": {
-            "oro":1 
-            
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "mineral": 2
-          } 
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "foundry",
-        "tipo": "materia prima",
-        "coste": {
-          "opcion1": {
-            "oro":1 
-            
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "mineral": 2
-          } 
+            "opcion1": {
+                "arcilla": 2
+            }
         },
         "numero_jugadores": 4,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
+        "nombre": "foundry",
+        "tipo": "materia prima",
+        "coste": {
+            "oro": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "mineral": 2
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "foundry",
+        "tipo": "materia prima",
+        "coste": {
+            "oro": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "mineral": 2
+            }
+        },
+        "numero_jugadores": 4,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "tela": 1
-          }
+            "opcion1": {
+                "tela": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
         "coste": 0,
         "beneficio": {
-          "opcion1": {
+            "opcion1": {
+                "tela": 1
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "press",
+        "tipo": "bienes manufacturados",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "papel": 1
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "press",
+        "tipo": "bienes manufacturados",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "papel": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "glassworks",
+        "tipo": "bienes manufacturados",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "vidrio": 1
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "glassworks",
+        "tipo": "bienes manufacturados",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "vidrio": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "caravansery",
+        "tipo": "estructura comercial",
+        "coste": {
+            "madera": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "madera": 1
+            },
+            "opcion2": {
+                "mineral": 1
+            },
+            "opcion3": {
+                "mineral": 1
+            },
+            "opcion4": {
+                "arcilla": 1
+            },
+            "opcion5": {
+                "faro": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "caravansery",
+        "tipo": "estructura comercial",
+        "coste": {
+            "madera": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "madera": 1
+            },
+            "opcion2": {
+                "mineral": 1
+            },
+            "opcion3": {
+                "mineral": 1
+            },
+            "opcion4": {
+                "arcilla": 1
+            },
+            "opcion5": {
+                "faro": 1
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "caravansery",
+        "tipo": "estructura comercial",
+        "coste": {
+            "madera": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "madera": 1
+            },
+            "opcion2": {
+                "mineral": 1
+            },
+            "opcion3": {
+                "mineral": 1
+            },
+            "opcion4": {
+                "arcilla": 1
+            },
+            "opcion5": {
+                "faro": 1
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "forum",
+        "tipo": "estructura comercial",
+        "coste": {
+            "arcilla": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "vidrio": 1
+            },
+            "opcion2": {
+                "papel": 1
+            },
+            "opcion3": {
+                "tela": 1
+            },
+            "opcion4": {
+                "barril": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "forum",
+        "tipo": "estructura comercial",
+        "coste": {
+            "arcilla": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "vidrio": 1
+            },
+            "opcion2": {
+                "papel": 1
+            },
+            "opcion3": {
+                "tela": 1
+            },
+            "opcion4": {
+                "barril": 1
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "forum",
+        "tipo": "estructura comercial",
+        "coste": {
+            "arcilla": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "vidrio": 1
+            },
+            "opcion2": {
+                "papel": 1
+            },
+            "opcion3": {
+                "tela": 1
+            },
+            "opcion4": {
+                "barril": 1
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "bazar",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "oro": 6
+            }
+        },
+        "numero_jugadores": 4,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "bazar",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "oro": 6
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "vineyard",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "oro": 7
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "vineyard",
+        "tipo": "estructura comercial",
+        "coste": 0,
+        "beneficio": {
+            "opcion1": {
+                "oro": 76
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "training ground",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 1,
+            "mineral": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2,
+                "casco": 1
+            }
+        },
+        "numero_jugadores": 4,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "training ground",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 1,
+            "mineral": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2,
+                "casco": 1
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "training ground",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 1,
+            "mineral": 2
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2,
+                "casco": 1
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "walls",
+        "tipo": "estructura militar",
+        "coste": {
+            "piedra": 3
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2,
+                "muro": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "walls",
+        "tipo": "estructura militar",
+        "coste": {
+            "piedra": 3
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2,
+                "muro": 1
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "archery range",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 2,
+            "mineral": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "archery range",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 2,
+            "mineral": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "stables",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 1,
+            "mineral": 1,
+            "arcilla": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "stables",
+        "tipo": "estructura militar",
+        "coste": {
+            "madera": 1,
+            "mineral": 1,
+            "arcilla": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos militares": 2
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "school",
+        "tipo": "ciencia",
+        "coste": {
+            "madera": 1,
+            "papel": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "tableta": 1,
+                "arpa": 1,
+                "pluma": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "school",
+        "tipo": "ciencia",
+        "coste": {
+            "madera": 1,
+            "papel": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "tableta": 1,
+                "arpa": 1,
+                "pluma": 1
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "library",
+        "tipo": "ciencia",
+        "coste": {
+            "piedra": 2,
             "tela": 1
-          }
         },
-        "numero_jugadores": 5,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "press",
-        "tipo": "bienes manufacturados",
-        "coste": 0,
         "beneficio": {
-          "opcion1": {
-            "papel": 1
-          }
-        },
-        "numero_jugadores": 5,
-        "era": 2,
-        "cantidad": 1
-      } ,{
-        "nombre": "press",
-        "tipo": "bienes manufacturados",
-        "coste": 0,
-        "beneficio": {
-          "opcion1": {
-            "papel": 1
-          }
+            "opcion1": {
+                "tableta": 1,
+                "papiro": 1,
+                "estructura": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
-        "nombre": "glassworks",
-        "tipo": "bienes manufacturados",
-        "coste": 0,
-        "beneficio": {
-          "opcion1": {
-            "vidrio": 1
-          }
-        },
-        "numero_jugadores": 5,
-        "era": 2,
-        "cantidad": 1
-      } ,{
-        "nombre": "glassworks",
-        "tipo": "bienes manufacturados",
-        "coste": 0,
-        "beneficio": {
-          "opcion1": {
-            "vidrio": 1
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      } ,  {
-        "nombre": "caravansery",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "madera": 2
-            },
-            "opcion2": {
-              "camello": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "madera": 1
-            },
-            "opcion2": {
-              "mineral": 1
-            },   
-              "opcion3": {
-                "mineral": 1
-              },
-              "opcion4": {
-                "arcilla": 1
-        },  "opcion5": {
-            "faro": 1
-        }},
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "caravansery",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "madera": 2
-            },
-            "opcion2": {
-              "camello": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "madera": 1
-            },
-            "opcion2": {
-              "mineral": 1
-            },   
-              "opcion3": {
-                "mineral": 1
-              },
-              "opcion4": {
-                "arcilla": 1
-        },  "opcion5": {
-            "faro": 1
-        }},
-        "numero_jugadores": 5,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "caravansery",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "madera": 2
-            },
-            "opcion2": {
-              "camello": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "madera": 1
-            },
-            "opcion2": {
-              "mineral": 1
-            },   
-              "opcion3": {
-                "mineral": 1
-              },
-              "opcion4": {
-                "arcilla": 1
-        },  "opcion5": {
-            "faro": 1
-        }},
-        "numero_jugadores": 6,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "forum",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "arcilla": 2
-            },
-            "opcion2": {
-              "toldo": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "vidrio": 1
-            },
-            "opcion2": {
-              "papel": 1
-            },   
-              "opcion3": {
-                "tela": 1
-              },
-              "opcion4": {
-                "barril": 1
-        }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "forum",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "arcilla": 2
-            },
-            "opcion2": {
-              "toldo": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "vidrio": 1
-            },
-            "opcion2": {
-              "papel": 1
-            },   
-              "opcion3": {
-                "tela": 1
-              },
-              "opcion4": {
-                "barril": 1
-        }
-        },
-        "numero_jugadores": 6,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "forum",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "arcilla": 2
-            },
-            "opcion2": {
-              "toldo": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "vidrio": 1
-            },
-            "opcion2": {
-              "papel": 1
-            },   
-              "opcion3": {
-                "tela": 1
-              },
-              "opcion4": {
-                "barril": 1
-        }
-        },
-        "numero_jugadores": 7,
-        "era": 2,
-        "cantidad": 1
-      }, {
-        "nombre": "bazar",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro": 6
-          }
-        },
-        "numero_jugadores": 4,
-        "era": 2,
-        "cantidad": 1
-      }, {
-        "nombre": "bazar",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro": 6
-          }
-        },
-        "numero_jugadores": 7,
-        "era": 2,
-        "cantidad": 1
-      }, {
-        "nombre": "vineyard",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro": 7
-          }
-        },
-        "numero_jugadores": 6,
-        "era": 2,
-        "cantidad": 1
-      }, {
-        "nombre": "vineyard",
-        "tipo": "estructura comercial",
-        "coste": {
-          "opcion1": 0
-        },
-        "beneficio": {
-          "opcion1": {
-            "oro":76
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "training ground",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "mineral":2
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2,
-            "casco":1
-          }
-        },
-        "numero_jugadores": 4,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "training ground",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "mineral":2
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2,
-            "casco":1
-          }
-        },
-        "numero_jugadores": 6,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "training ground",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "mineral":2
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2,
-            "casco":1
-          }
-        },
-        "numero_jugadores": 7,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "walls",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "piedra": 3
-           
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2,
-            "muro":1
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "walls",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "piedra": 3
-           
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2,
-            "muro":1
-          }
-        },
-        "numero_jugadores": 7,
-        "era": 2,
-        "cantidad": 1
-      },
+    },
     {
-        "nombre": "archery range",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 2,
-            "mineral":1
-           },
-           "opcion2":{
-            "blanco":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2
-            
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },
-    {
-        "nombre": "archery range",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 2,
-            "mineral":1
-           },
-           "opcion2":{
-            "blanco":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2
-            
-          }
-        },
-        "numero_jugadores": 6,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "stables",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "mineral":1,
-            "arcilla":1
-           },
-           "opcion2":{
-            "herradura":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2
-            
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "stables",
-        "tipo": "estructura militar",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "mineral":1,
-            "arcilla":1
-           },
-           "opcion2":{
-            "herradura":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "puntos militares": 2
-            
-          }
-        },
-        "numero_jugadores": 6,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "school",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "papel":1
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "tableta": 1,
-            "arpa": 1,
-            "pluma": 1
-          }
-          
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "school",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "madera": 1,
-            "papel":1
-          }
-        },
-        "beneficio": {
-          "opcion1": {
-            "tableta": 1,
-            "arpa": 1,
-            "pluma": 1
-          }
-          
-        },
-        "numero_jugadores": 7,
-        "era": 2,
-        "cantidad": 1
-      },{
         "nombre": "library",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "piedra": 2,
-            "tela":1
-           },
-           "opcion2":{
-            "libro":1
-
-           }
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "tableta":1,
-            "papiro":1,
-            "estructura":1
-            
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 2,
-        "cantidad": 1
-      },{
-        "nombre": "library",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "piedra": 2,
-            "tela":1
-           },
-           "opcion2":{
-            "libro":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "tableta":1,
-            "papiro":1,
-            "estructura":1
-            
-          }
+            "opcion1": {
+                "tableta": 1,
+                "papiro": 1,
+                "estructura": 1
+            }
         },
         "numero_jugadores": 6,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "laboratory",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "arcilla": 2,
-            "papel":1
-           },
-           "opcion2":{
-            "lampara":1
-
-           }
+            "papel": 1
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje":1,
-            "planetario":1,
-            "cerrucho":1
-            
-          }
+            "opcion1": {
+                "engranaje": 1,
+                "planetario": 1,
+                "cerrucho": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "laboratory",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "arcilla": 2,
-            "papel":1
-           },
-           "opcion2":{
-            "lampara":1
-
-           }
+            "papel": 1
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje":1,
-            "planetario":1,
-            "cerrucho":1
-            
-          }
+            "opcion1": {
+                "engranaje": 1,
+                "planetario": 1,
+                "cerrucho": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "dispensary",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "mineral": 2,
-            "vidrio":1
-           },
-           "opcion2":{
-            "mortero":1
-
-           }
+            "vidrio": 1
         },
         "beneficio": {
-          "opcion1": {
-            "compaz":1,
-            "rayo":1,
-            "antorcha":1
-            
-          }
+            "opcion1": {
+                "compaz": 1,
+                "rayo": 1,
+                "antorcha": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "dispensary",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "mineral": 2,
-            "vidrio":1
-           },
-           "opcion2":{
-            "mortero":1
-
-           }
+            "vidrio": 1
         },
         "beneficio": {
-          "opcion1": {
-            "compaz":1,
-            "rayo":1,
-            "antorcha":1
-            
-          }
+            "opcion1": {
+                "compaz": 1,
+                "rayo": 1,
+                "antorcha": 1
+            }
         },
         "numero_jugadores": 4,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "aqueduct",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "piedra": 3
-              
-             },
-             "opcion2":{
-              "gota":1
-  
-             }},
+            "piedra": 3
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 5
-
-          }
+            "opcion1": {
+                "puntos de victoria": 5
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "aqueduct",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "piedra": 3
-              
-             },
-             "opcion2":{
-              "gota":1
-  
-             }},
+            "piedra": 3
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 5
-
-          }
+            "opcion1": {
+                "puntos de victoria": 5
+            }
         },
         "numero_jugadores": 7,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "courthouse",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 2,
-              "tela":1
-              
-             },
-             "opcion2":{
-              "balanza":1
-  
-             }},
+            "arcilla": 2,
+            "tela": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 4
-
-          }
+            "opcion1": {
+                "puntos de victoria": 4
+            }
         },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "courthouse",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 2,
-              "tela":1
-              
-             },
-             "opcion2":{
-              "balanza":1
-  
-             }},
+            "arcilla": 2,
+            "tela": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 4
-
-          }
+            "opcion1": {
+                "puntos de victoria": 4
+            }
         },
         "numero_jugadores": 5,
         "era": 2,
         "cantidad": 1
-      },{
-      "nombre": "statue",
-      "tipo": "estructura civil",
-      "coste": {
-          "opcion1": {
-            "mineral": 2,
-            "madera":1
-            
-           },
-           "opcion2":{
-            "martillo":1
-
-           }},
-      "beneficio": {
-        "opcion1": {
-          "puntos de victoria": 4
-
-        }
-      },
-      "numero_jugadores": 3,
-      "era": 2,
-      "cantidad": 1
-    },{
+    },
+    {
         "nombre": "statue",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "mineral": 2,
-              "madera":1
-              
-             },
-             "opcion2":{
-              "martillo":1
-  
-             }},
+            "mineral": 2,
+            "madera": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 4
-  
-          }
+            "opcion1": {
+                "puntos de victoria": 4
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 2,
+        "cantidad": 1
+    },
+    {
+        "nombre": "statue",
+        "tipo": "estructura civil",
+        "coste": {
+            "mineral": 2,
+            "madera": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 4
+            }
         },
         "numero_jugadores": 7,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "temple",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 1,
-              "madera":1,
-              "vidrio":1
-              
-             },
-        "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 4
-  
-          }
-        }},
+            "arcilla": 1,
+            "madera": 1,
+            "vidrio": 1
+        },
         "numero_jugadores": 3,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "temple",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 1,
-              "madera":1,
-              "vidrio":1
-              
-             }},
+            "arcilla": 1,
+            "madera": 1,
+            "vidrio": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 4
-  
-          }
+            "opcion1": {
+                "puntos de victoria": 4
+            }
         },
         "numero_jugadores": 6,
         "era": 2,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "town hall",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "piedra": 2,
-              "mineral":1,
-              "vidrio":1
-              
-             }},
+            "piedra": 2,
+            "mineral": 1,
+            "vidrio": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 6
-  
-          }
+            "opcion1": {
+                "puntos de victoria": 6
+            }
         },
         "numero_jugadores": 6,
         "era": 3,
         "cantidad": 1
-      }
-      ,{
+    },
+    {
         "nombre": "town hall",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "piedra": 2,
-              "mineral":1,
-              "vidrio":1
-              
-             }},
+            "piedra": 2,
+            "mineral": 1,
+            "vidrio": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 6
-  
-          }
+            "opcion1": {
+                "puntos de victoria": 6
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "palace",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "piedra": 1,
-              "mineral":1,
-              "madera":1,
-              "arcilla":1,
-              "vidrio":1,
-              "papel":1,
-              "tela":1
-              
-             }},
+            "piedra": 1,
+            "mineral": 1,
+            "madera": 1,
+            "arcilla": 1,
+            "vidrio": 1,
+            "papel": 1,
+            "tela": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 8
-  
-          }
+            "opcion1": {
+                "puntos de victoria": 8
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-        },{
+    },
+    {
         "nombre": "palace",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "piedra": 1,
-              "mineral":1,
-              "madera":1,
-              "arcilla":1,
-              "vidrio":1,
-              "papel":1,
-              "tela":1
-              
-             }},
+            "piedra": 1,
+            "mineral": 1,
+            "madera": 1,
+            "arcilla": 1,
+            "vidrio": 1,
+            "papel": 1,
+            "tela": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 8
-  
-          }
+            "opcion1": {
+                "puntos de victoria": 8
+            }
         },
         "numero_jugadores": 7,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "pantheon",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 2,
-              "mineral":1,
-              "vidrio":1,
-              "papel":1,
-              "tela":1
-              
-             },
-             "opcion2":{
-              "estrella":1
-  
-             }},
+            "arcilla": 2,
+            "mineral": 1,
+            "vidrio": 1,
+            "papel": 1,
+            "tela": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 7
-
-          }
+            "opcion1": {
+                "puntos de victoria": 7
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "pantheon",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 2,
-              "mineral":1,
-              "vidrio":1,
-              "papel":1,
-              "tela":1
-              
-             },
-             "opcion2":{
-              "estrella":1
-  
-             }},
+            "arcilla": 2,
+            "mineral": 1,
+            "vidrio": 1,
+            "papel": 1,
+            "tela": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 7
-
-          }
+            "opcion1": {
+                "puntos de victoria": 7
+            }
         },
         "numero_jugadores": 6,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "senate",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "madera": 2,
-              "mineral":1,
-              "pedra":1
-              
-             },
-             "opcion2":{
-              "estructura":1
-  
-             }},
+            "madera": 2,
+            "mineral": 1,
+            "pedra": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 6
-
-          }
+            "opcion1": {
+                "puntos de victoria": 6
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "senate",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "madera": 2,
-              "mineral":1,
-              "pedra":1
-              
-             },
-             "opcion2":{
-              "estructura":1
-  
-             }},
+            "madera": 2,
+            "mineral": 1,
+            "pedra": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 6
-
-          }
+            "opcion1": {
+                "puntos de victoria": 6
+            }
         },
         "numero_jugadores": 5,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "gardens",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 2,
-              "madera":1
-              
-             },
-             "opcion2":{
-              "mascara":1
-  
-             }},
+            "arcilla": 2,
+            "madera": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 5
-
-          }
+            "opcion1": {
+                "puntos de victoria": 5
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "gardens",
         "tipo": "estructura civil",
         "coste": {
-            "opcion1": {
-              "arcilla": 2,
-              "madera":1
-              
-             },
-             "opcion2":{
-              "mascara":1
-  
-             }},
+            "arcilla": 2,
+            "madera": 1
+        },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 5
-
-          }
+            "opcion1": {
+                "puntos de victoria": 5
+            }
         },
         "numero_jugadores": 4,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "siege workshop",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "madera": 1,
-            "arcilla":3
-           },
-           "opcion2":{
-            "serrucho": 1
-
-           }
+            "arcilla": 3
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "siege workshop",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "madera": 1,
-            "arcilla":3
-           },
-           "opcion2":{
-            "serrucho": 1
-
-           }
+            "arcilla": 3
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 5,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "circus",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 1,
-            "piedra":3
-           },
-           "opcion2":{
-            "casco": 1
-
-           }
+            "piedra": 3
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 4,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "circus",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 1,
-            "piedra":3
-           },
-           "opcion2":{
-            "casco": 1
-
-           }
+            "piedra": 3
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 6,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "fortifications",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 3,
-            "arcilla":1
-           },
-           "opcion2":{
-            "muro": 1
-
-           }
+            "arcilla": 1
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "fortifications",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 3,
-            "arcilla":1
-           },
-           "opcion2":{
-            "muro": 1
-
-           }
+            "arcilla": 1
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 7,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "castrum",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "arcilla": 2,
-            "madera":1,
-            "papel":1
-           }
+            "madera": 1,
+            "papel": 1
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 4,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "castrum",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "arcilla": 2,
-            "madera":1,
-            "papel":1
-           }
+            "madera": 1,
+            "papel": 1
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 7,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "arsenal",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 1,
-            "madera":2,
-            "tela":1
-           }
+            "madera": 2,
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "arsenal",
         "tipo": "estructura militar",
         "coste": {
-          "opcion1": {
             "mineral": 1,
-            "madera":2,
-            "tela":1
-           }
+            "madera": 2,
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "puntos militares": 3
-            
-          }
+            "opcion1": {
+                "puntos militares": 3
+            }
         },
         "numero_jugadores": 5,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "observatory",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "mineral": 2,
-            "vidrio":1,
-            "tela":1
-           },
-           "opcion2":{
-            "planetario":1
-
-           }
+            "vidrio": 1,
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje":1
-            
-          }
+            "opcion1": {
+                "engranaje": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "observatory",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "mineral": 2,
-            "vidrio":1,
-            "tela":1
-           },
-           "opcion2":{
-            "planetario":1
-
-           }
+            "vidrio": 1,
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje":1
-            
-          }
+            "opcion1": {
+                "engranaje": 1
+            }
         },
         "numero_jugadores": 7,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "study",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "madera": 1,
-            "papel":1,
-            "tela":1
-           },
-           "opcion2":{
-            "pluma":1
-
-           }
+            "papel": 1,
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje":1
-            
-          }
+            "opcion1": {
+                "engranaje": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "study",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "madera": 1,
-            "papel":1,
-            "tela":1
-           },
-           "opcion2":{
-            "pluma":1
-
-           }
+            "papel": 1,
+            "tela": 1
         },
         "beneficio": {
-          "opcion1": {
-            "engranaje":1
-            
-          }
+            "opcion1": {
+                "engranaje": 1
+            }
         },
         "numero_jugadores": 5,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "university",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "madera": 2,
-            "papel":1,
-            "vidrio":1
-           },
-           "opcion2":{
-            "papiro":1
-
-           }
+            "papel": 1,
+            "vidrio": 1
         },
         "beneficio": {
-          "opcion1": {
-            "tableta":1
-            
-          }
+            "opcion1": {
+                "tableta": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "university",
         "tipo": "ciencia",
         "coste": {
-          "opcion1": {
             "madera": 2,
-            "papel":1,
-            "vidrio":1
-           },
-           "opcion2":{
-            "papiro":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "tableta":1
-            
-          }
-        },
-        "numero_jugadores": 4,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "lodge",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "arcilla": 2,
-            "papel":1,
-            "tela":1
-           },
-           "opcion2":{
-            "antorcha":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "compaz":1
-            
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "lodge",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "arcilla": 2,
-            "papel":1,
-            "tela":1
-           },
-           "opcion2":{
-            "antorcha":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "compaz":1
-            
-          }
-        },
-        "numero_jugadores": 6,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "academy",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "piedra": 3,
-            "vidrio":1
-           },
-           "opcion2":{
-            "arpa":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "compaz":1
-            
-          }
-        },
-        "numero_jugadores": 3,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "academy",
-        "tipo": "ciencia",
-        "coste": {
-          "opcion1": {
-            "piedra": 3,
-            "vidrio":1
-           },
-           "opcion2":{
-            "arpa":1
-
-           }
-        },
-        "beneficio": {
-          "opcion1": {
-            "compaz":1
-            
-          }
-        },
-        "numero_jugadores": 7,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "haven",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "madera": 1,
-              "mineral":1,
-              "tela":1
-            },
-            "opcion2": {
-              "barril": 1
-            }
+            "papel": 1,
+            "vidrio": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":1
-            }
-        },
-        "numero_jugadores": 3,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "haven",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "madera": 1,
-              "mineral":1,
-              "tela":1
-            },
-            "opcion2": {
-              "barril": 1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":1
+                "tableta": 1
             }
         },
         "numero_jugadores": 4,
         "era": 3,
         "cantidad": 1
-      },{
-        "nombre": "lighthouse",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "piedra": 1,
-              "vidrio":1
-            },
-            "opcion2": {
-              "faro": 1
-            }
+    },
+    {
+        "nombre": "lodge",
+        "tipo": "ciencia",
+        "coste": {
+            "arcilla": 2,
+            "papel": 1,
+            "tela": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":1
+                "compaz": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
-        "nombre": "lighthouse",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "piedra": 1,
-              "vidrio":1
-            },
-            "opcion2": {
-              "faro": 1
-            }
+    },
+    {
+        "nombre": "lodge",
+        "tipo": "ciencia",
+        "coste": {
+            "arcilla": 2,
+            "papel": 1,
+            "tela": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":1
+                "compaz": 1
             }
         },
         "numero_jugadores": 6,
         "era": 3,
         "cantidad": 1
-      },{
-        "nombre": "arena",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "piedra": 2,
-              "mineral":1
-            },
-            "opcion2": {
-              "rayo": 1
-            }
+    },
+    {
+        "nombre": "academy",
+        "tipo": "ciencia",
+        "coste": {
+            "piedra": 3,
+            "vidrio": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":3
+                "compaz": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
-        "nombre": "arena",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "piedra": 2,
-              "mineral":1
-            },
-            "opcion2": {
-              "rayo": 1
-            }
+    },
+    {
+        "nombre": "academy",
+        "tipo": "ciencia",
+        "coste": {
+            "piedra": 3,
+            "vidrio": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":3
-            }
-        },
-        "numero_jugadores": 5,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "ludus",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "piedra": 1,
-              "mineral":1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":3
-            }
-        },
-        "numero_jugadores": 5,
-        "era": 3,
-        "cantidad": 1
-      },{
-        "nombre": "ludus",
-        "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "piedra": 1,
-              "mineral":1
-            }
-        },
-        "beneficio": {
-            "opcion1": {
-              "puntos de victoria": 1,
-              "monedas":3
+                "compaz": 1
             }
         },
         "numero_jugadores": 7,
         "era": 3,
         "cantidad": 1
-      },{
-        "nombre": "chamber of comerce",
+    },
+    {
+        "nombre": "haven",
         "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "arcilla": 2,
-              "papel":1
-            }
+        "coste": {
+            "madera": 1,
+            "mineral": 1,
+            "tela": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 2,
-              "monedas":3
+                "puntos de victoria": 1,
+                "monedas": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "haven",
+        "tipo": "estructura comercial",
+        "coste": {
+            "madera": 1,
+            "mineral": 1,
+            "tela": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 1,
+                "monedas": 1
             }
         },
         "numero_jugadores": 4,
         "era": 3,
         "cantidad": 1
-      },{
-        "nombre": "chamber of comerce",
+    },
+    {
+        "nombre": "lighthouse",
         "tipo": "estructura comercial",
-        "coste":  {
-            "opcion1": {
-              "arcilla": 2,
-              "papel":1
-            }
+        "coste": {
+            "piedra": 1,
+            "vidrio": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 2,
-              "monedas":3
+                "puntos de victoria": 1,
+                "monedas": 1
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "lighthouse",
+        "tipo": "estructura comercial",
+        "coste": {
+            "piedra": 1,
+            "vidrio": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 1,
+                "monedas": 1
             }
         },
         "numero_jugadores": 6,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
+        "nombre": "arena",
+        "tipo": "estructura comercial",
+        "coste": {
+            "piedra": 2,
+            "mineral": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 1,
+                "monedas": 3
+            }
+        },
+        "numero_jugadores": 3,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "arena",
+        "tipo": "estructura comercial",
+        "coste": {
+            "piedra": 2,
+            "mineral": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 1,
+                "monedas": 3
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "ludus",
+        "tipo": "estructura comercial",
+        "coste": {
+            "piedra": 1,
+            "mineral": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 1,
+                "monedas": 3
+            }
+        },
+        "numero_jugadores": 5,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "ludus",
+        "tipo": "estructura comercial",
+        "coste": {
+            "piedra": 1,
+            "mineral": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 1,
+                "monedas": 3
+            }
+        },
+        "numero_jugadores": 7,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "chamber of comerce",
+        "tipo": "estructura comercial",
+        "coste": {
+            "arcilla": 2,
+            "papel": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 2,
+                "monedas": 3
+            }
+        },
+        "numero_jugadores": 4,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
+        "nombre": "chamber of comerce",
+        "tipo": "estructura comercial",
+        "coste": {
+            "arcilla": 2,
+            "papel": 1
+        },
+        "beneficio": {
+            "opcion1": {
+                "puntos de victoria": 2,
+                "monedas": 3
+            }
+        },
+        "numero_jugadores": 6,
+        "era": 3,
+        "cantidad": 1
+    },
+    {
         "nombre": "spies guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
-              "arcilla": 2,
-              "vidrio":1
-            }
+        "coste": {
+            "arcilla": 2,
+            "vidrio": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "decorators guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
-              "mineral": 2,
-              "piedra":1,
-              "tela":1
-            }
+        "coste": {
+            "mineral": 2,
+            "piedra": 1,
+            "tela": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 7
+                "puntos de victoria": 7
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "traders guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
-              "vidrio": 1,
-              "papel":1,
-              "tela":1
-            }
+        "coste": {
+            "vidrio": 1,
+            "papel": 1,
+            "tela": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "craftsmen guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
-              "mineral": 2,
-              "piedra":2
-              
-            }
+        "coste": {
+            "mineral": 2,
+            "piedra": 2
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 2
+                "puntos de victoria": 2
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "workers guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
-              "mineral": 2,
-              "piedra":1,
-              "madera":1,
-              "arcilla":1
-              
-            }
+        "coste": {
+            "mineral": 2,
+            "piedra": 1,
+            "madera": 1,
+            "arcilla": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "magistrates guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
- 
-              "piedra":1,
-              "madera":3,
-              "tela":1
-              
-            }
+        "coste": {
+            "piedra": 1,
+            "madera": 3,
+            "tela": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "scientist guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
- 
-              "mineral":2,
-              "madera":2,
-              "papel":1
-              
-            }
+        "coste": {
+            "mineral": 2,
+            "madera": 2,
+            "papel": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "shipowners guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
- 
-              "vidrio":1,
-              "madera":3,
-              "papel":1
-              
-            }
+        "coste": {
+            "vidrio": 1,
+            "madera": 3,
+            "papel": 1
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },{
+    },
+    {
         "nombre": "builders guild",
         "tipo": "guild",
-        "coste":  {
-            "opcion1": {
- 
-              "vidrio":1,
-              "piedra":3,
-              "arcilla":2
-              
-            }
+        "coste": {
+            "vidrio": 1,
+            "piedra": 3,
+            "arcilla": 2
         },
         "beneficio": {
             "opcion1": {
-              "puntos de victoria": 1
+                "puntos de victoria": 1
             }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      },
-      {
+    },
+    {
         "nombre": "philosophers guild",
         "tipo": "guild",
         "coste": {
-          "opcion1": {
             "tela": 1,
             "papel": 1,
             "arcilla": 3
-          }
         },
         "beneficio": {
-          "opcion1": {
-            "puntos de victoria": 1
-          }
+            "opcion1": {
+                "puntos de victoria": 1
+            }
         },
         "numero_jugadores": 3,
         "era": 3,
         "cantidad": 1
-      }
-      ]
-        
-
-      
-    
-    
-    
-    
-    
-    
+    }
+]

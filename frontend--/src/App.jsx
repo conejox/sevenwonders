@@ -5,7 +5,7 @@ function App() {
   const [cards, setCards] = useState([]);
   const [numPlayers, setNumPlayers] = useState(3);
   const [age, setAge] = useState(4);
-  const [type, setType] = useState(["materia prima"]);
+  const [type, setType] = useState([]);
   const [hasGold, setHasGold] = useState(false);
 
   const fetchData = async () => {
