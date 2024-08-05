@@ -101,7 +101,7 @@ function App() {
               <strong>{card.name}</strong><br />
                - Number of Players: {card.numPlayers}<br />
                 - Age: {card.age}<br />
-                - Cost: {JSON.stringify(card.cost.opcion1)}<br />
+                - Cost: {JSON.stringify(card.cost)}<br />
                 
               </li>
           ))}
