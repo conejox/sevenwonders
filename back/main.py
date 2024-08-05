@@ -30,7 +30,7 @@ def card():
     
     return jsonify(card)
 
-# number of players, age and type
+# seach engine
 @app.route('/data/numPlayers', methods=['POST'])
 @cross_origin()
 def numPlayers():
@@ -58,7 +58,7 @@ def numPlayers():
         for item in data 
         if item.get('numero_jugadores', 10)<= num_players 
         and (age == 4 or item.get('era') == age)
-        and (type == 'all' or item.get('tipo') == type)
+        and (type == 'all' or item.get('tipo') == type)# abajo moficiar para que sea un or
         and (not gold or ('oro' in item['coste'] if isinstance(item.get('coste'), dict) else False))
         and (not wool or ('lana' in item['coste'] if isinstance(item.get('coste'), dict) else False))
         and (not glass or ('vidrio' in item['coste'] if isinstance(item.get('coste'), dict) else False))

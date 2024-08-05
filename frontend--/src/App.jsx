@@ -133,21 +133,6 @@ function App() {
         </ul>
       </div>
           
-
-      {/*<div className="card-list">
-        {cards.map((card, index) => (
-          <div key={index} className="card">
-            <strong>Name: </strong><strong>{card.name}</strong> <br />
-            <strong>Type:</strong> {card.type}<br />
-            <strong>Cost:</strong> {JSON.stringify(card.cost)}<br />
-            <strong>Number of Players:</strong> {card.numPlayers}<br />
-           
-           
-            <strong>Age:</strong> {card.age}<br />
-            <strong>Quantity:</strong> {card.quantity}
-          </div>
-        ))}
-      </div>*/}
   </div>
   );
 }
