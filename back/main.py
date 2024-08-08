@@ -31,9 +31,9 @@ def card():
     return jsonify(card)
 
 # seach engine
-@app.route('/data/numPlayers', methods=['POST'])
+@app.route('/data/search', methods=['POST'])
 @cross_origin()
-def numPlayers():
+def search():
     num_players = int(request.json['numPlayers'])
     age = int(request.json['age'])
     type = str(request.json['type'])
@@ -44,6 +44,25 @@ def numPlayers():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(base_dir, 'cards.json')  # Use absolute path
     data = load_json(file_path)
+
+    def filter_by_num_players(item, num_players):
+        return item.get('numero_jugadores', 10) <= num_players
+
+    def filter_by_age(item, age):
+        return age == 4 or item.get('era') == age
+
+    def filter_by_type(item, type):
+        return type == 'all' or item.get('tipo') == type
+
+    def filter_by_cost(item, gold, wool, glass, paper):
+        if not isinstance(item.get('coste'), dict):
+            return False
+        cost = item['coste']
+        return (not gold or 'oro' in cost) and \
+            (not wool or 'tela' in cost) and \
+            (not glass or 'vidrio' in cost) and \
+            (not paper or 'papel' in cost)
+
     
     filtered_cards = [
         {
@@ -56,15 +75,11 @@ def numPlayers():
             'quantity': item.get('cantidad', 1)
         }
         for item in data 
-        if item.get('numero_jugadores', 10)<= num_players 
-        and (age == 4 or item.get('era') == age)
-        and (type == 'all' or item.get('tipo') == type)# abajo moficiar para que sea un or
-        and (not gold or ('oro' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        and (not wool or ('lana' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        and (not glass or ('vidrio' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        and (not paper or ('papel' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        ]
-    
+        if filter_by_num_players(item, num_players) and
+           filter_by_age(item, age) and
+           filter_by_type(item, type) and
+           filter_by_cost(item, gold, wool, glass, paper)
+    ]
     print(filtered_cards)
     return jsonify(filtered_cards)
 

@@ -51,7 +51,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/data/numPlayers', 
+      const response = await axios.post('http://localhost:5000/data/search', 
         { numPlayers, age, type,Gold,wool,glass,paper });
       setCards(response.data); // Update the cards state with the filtered cards
     } catch (error) {
