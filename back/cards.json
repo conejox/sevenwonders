@@ -3,7 +3,14 @@
         "nombre": "forest cave",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -21,7 +28,14 @@
         "nombre": "clay pit",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -39,7 +53,14 @@
         "nombre": "timber yard",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -57,7 +78,14 @@
         "nombre": "excavation",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -75,7 +103,14 @@
         "nombre": "mine",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -92,7 +127,15 @@
     {
         "nombre": "ore vein",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "mineral": 1
@@ -105,7 +148,15 @@
     {
         "nombre": "ore vein",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "mineral": 1
@@ -118,7 +169,15 @@
     {
         "nombre": "clay pool",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "arcilla": 1
@@ -131,7 +190,15 @@
     {
         "nombre": "clay pool",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "arcilla": 1
@@ -144,7 +211,15 @@
     {
         "nombre": "lumber yard",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "madera": 1
@@ -157,7 +232,15 @@
     {
         "nombre": "lumber yard",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "madera": 1
@@ -170,7 +253,15 @@
     {
         "nombre": "stone pit",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "piedra": 1
@@ -183,7 +274,15 @@
     {
         "nombre": "stone pit",
         "tipo": "materia prima",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "piedra": 1
@@ -196,7 +295,15 @@
     {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "tela": 1
@@ -209,7 +316,15 @@
     {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "tela": 1
@@ -222,7 +337,15 @@
     {
         "nombre": "press",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "papel": 1
@@ -235,7 +358,15 @@
     {
         "nombre": "press",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "papel": 1
@@ -248,7 +379,15 @@
     {
         "nombre": "glassworks",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "vidrio": 1
@@ -261,7 +400,15 @@
     {
         "nombre": "glassworks",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "vidrio": 1
@@ -275,7 +422,13 @@
         "nombre": "barracks",
         "tipo": "estructura militar",
         "coste": {
-            "mineral": 1
+            "mineral": 1,
+            "piedra": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -290,7 +443,13 @@
         "nombre": "barracks",
         "tipo": "estructura militar",
         "coste": {
-            "mineral": 1
+            "mineral": 1,
+            "piedra": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -305,7 +464,13 @@
         "nombre": "guard tower",
         "tipo": "estructura militar",
         "coste": {
-            "arcilla": 1
+            "arcilla": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -320,7 +485,13 @@
         "nombre": "guard tower",
         "tipo": "estructura militar",
         "coste": {
-            "arcilla": 1
+            "arcilla": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -335,7 +506,13 @@
         "nombre": "stockade",
         "tipo": "estructura militar",
         "coste": {
-            "madera": 1
+            "madera": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -350,7 +527,13 @@
         "nombre": "stockade",
         "tipo": "estructura militar",
         "coste": {
-            "madera": 1
+            "madera": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -364,7 +547,15 @@
     {
         "nombre": "tavern",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 5
@@ -377,7 +568,15 @@
     {
         "nombre": "tavern",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 5
@@ -390,7 +589,15 @@
     {
         "nombre": "tavern",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 5
@@ -403,7 +610,15 @@
     {
         "nombre": "east trading post",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "recurso_compra": {
@@ -441,7 +656,15 @@
     {
         "nombre": "east trading post",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "recurso_compra": {
@@ -479,7 +702,15 @@
     {
         "nombre": "west trading post",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "recurso_compra": {
@@ -517,7 +748,15 @@
     {
         "nombre": "west trading post",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "recurso_compra": {
@@ -555,7 +794,15 @@
     {
         "nombre": "marketplace",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "recurso_compra": {
@@ -586,7 +833,15 @@
     {
         "nombre": "marketplace",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "recurso_compra": {
@@ -618,7 +873,13 @@
         "nombre": "scriptorium",
         "tipo": "ciencia",
         "coste": {
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -635,7 +896,13 @@
         "nombre": "scriptorium",
         "tipo": "ciencia",
         "coste": {
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -652,7 +919,13 @@
         "nombre": "apothecary",
         "tipo": "ciencia",
         "coste": {
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -669,7 +942,13 @@
         "nombre": "apothecary",
         "tipo": "ciencia",
         "coste": {
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -686,7 +965,13 @@
         "nombre": "workshop",
         "tipo": "ciencia",
         "coste": {
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -703,7 +988,13 @@
         "nombre": "workshop",
         "tipo": "ciencia",
         "coste": {
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -719,7 +1010,15 @@
     {
         "nombre": "altar",
         "tipo": "estructura civil",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "puntos de victoria": 3,
@@ -733,7 +1032,15 @@
     {
         "nombre": "altar",
         "tipo": "estructura civil",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "puntos de victoria": 3,
@@ -747,7 +1054,15 @@
     {
         "nombre": "well",
         "tipo": "estructura civil",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "puntos de victoria": 3,
@@ -761,7 +1076,15 @@
     {
         "nombre": "well",
         "tipo": "estructura civil",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "puntos de victoria": 3,
@@ -775,7 +1098,15 @@
     {
         "nombre": "theater",
         "tipo": "estructura civil",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "puntos de victoria": 3,
@@ -789,7 +1120,15 @@
     {
         "nombre": "theater",
         "tipo": "estructura civil",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "puntos de victoria": 3,
@@ -804,7 +1143,14 @@
         "nombre": "baths",
         "tipo": "estructura civil",
         "coste": {
-            "pedra": 1
+            "pedra": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -820,7 +1166,14 @@
         "nombre": "baths",
         "tipo": "estructura civil",
         "coste": {
-            "pedra": 1
+            "pedra": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -836,7 +1189,14 @@
         "nombre": "sawmill",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -851,7 +1211,14 @@
         "nombre": "sawmill",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -866,7 +1233,14 @@
         "nombre": "quarry",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -881,7 +1255,14 @@
         "nombre": "quarry",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -896,7 +1277,14 @@
         "nombre": "brickyard",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -911,7 +1299,14 @@
         "nombre": "brickyard",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -926,7 +1321,14 @@
         "nombre": "foundry",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -941,7 +1343,14 @@
         "nombre": "foundry",
         "tipo": "materia prima",
         "coste": {
-            "oro": 1
+            "oro": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -955,7 +1364,15 @@
     {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "tela": 1
@@ -968,7 +1385,15 @@
     {
         "nombre": "loom",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "tela": 1
@@ -981,7 +1406,15 @@
     {
         "nombre": "press",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "papel": 1
@@ -994,7 +1427,15 @@
     {
         "nombre": "press",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "papel": 1
@@ -1007,7 +1448,15 @@
     {
         "nombre": "glassworks",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "vidrio": 1
@@ -1020,7 +1469,15 @@
     {
         "nombre": "glassworks",
         "tipo": "bienes manufacturados",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "vidrio": 1
@@ -1034,7 +1491,13 @@
         "nombre": "caravansery",
         "tipo": "estructura comercial",
         "coste": {
-            "madera": 2
+            "madera": 2,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1061,7 +1524,13 @@
         "nombre": "caravansery",
         "tipo": "estructura comercial",
         "coste": {
-            "madera": 2
+            "madera": 2,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1088,7 +1557,13 @@
         "nombre": "caravansery",
         "tipo": "estructura comercial",
         "coste": {
-            "madera": 2
+            "madera": 2,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1115,7 +1590,13 @@
         "nombre": "forum",
         "tipo": "estructura comercial",
         "coste": {
-            "arcilla": 2
+            "arcilla": 2,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1139,7 +1620,13 @@
         "nombre": "forum",
         "tipo": "estructura comercial",
         "coste": {
-            "arcilla": 2
+            "arcilla": 2,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1163,7 +1650,13 @@
         "nombre": "forum",
         "tipo": "estructura comercial",
         "coste": {
-            "arcilla": 2
+            "arcilla": 2,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1186,7 +1679,15 @@
     {
         "nombre": "bazar",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 6
@@ -1199,7 +1700,15 @@
     {
         "nombre": "bazar",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 6
@@ -1212,7 +1721,15 @@
     {
         "nombre": "vineyard",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 7
@@ -1225,7 +1742,15 @@
     {
         "nombre": "vineyard",
         "tipo": "estructura comercial",
-        "coste": 0,
+        "coste": {
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
+        },
         "beneficio": {
             "opcion1": {
                 "oro": 76
@@ -1240,7 +1765,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 1,
-            "mineral": 2
+            "mineral": 2,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1257,7 +1787,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 1,
-            "mineral": 2
+            "mineral": 2,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1274,7 +1809,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 1,
-            "mineral": 2
+            "mineral": 2,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1290,7 +1830,13 @@
         "nombre": "walls",
         "tipo": "estructura militar",
         "coste": {
-            "piedra": 3
+            "piedra": 3,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1306,7 +1852,13 @@
         "nombre": "walls",
         "tipo": "estructura militar",
         "coste": {
-            "piedra": 3
+            "piedra": 3,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1323,7 +1875,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 2,
-            "mineral": 1
+            "mineral": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1339,7 +1896,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 2,
-            "mineral": 1
+            "mineral": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1356,7 +1918,11 @@
         "coste": {
             "madera": 1,
             "mineral": 1,
-            "arcilla": 1
+            "arcilla": 1,
+            "piedra": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1373,7 +1939,11 @@
         "coste": {
             "madera": 1,
             "mineral": 1,
-            "arcilla": 1
+            "arcilla": 1,
+            "piedra": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1389,7 +1959,12 @@
         "tipo": "ciencia",
         "coste": {
             "madera": 1,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1407,7 +1982,12 @@
         "tipo": "ciencia",
         "coste": {
             "madera": 1,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1425,7 +2005,12 @@
         "tipo": "ciencia",
         "coste": {
             "piedra": 2,
-            "tela": 1
+            "tela": 1,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1443,7 +2028,12 @@
         "tipo": "ciencia",
         "coste": {
             "piedra": 2,
-            "tela": 1
+            "tela": 1,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1461,7 +2051,12 @@
         "tipo": "ciencia",
         "coste": {
             "arcilla": 2,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1479,7 +2074,12 @@
         "tipo": "ciencia",
         "coste": {
             "arcilla": 2,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1497,7 +2097,12 @@
         "tipo": "ciencia",
         "coste": {
             "mineral": 2,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1515,7 +2120,12 @@
         "tipo": "ciencia",
         "coste": {
             "mineral": 2,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1532,7 +2142,13 @@
         "nombre": "aqueduct",
         "tipo": "estructura civil",
         "coste": {
-            "piedra": 3
+            "piedra": 3,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1547,7 +2163,13 @@
         "nombre": "aqueduct",
         "tipo": "estructura civil",
         "coste": {
-            "piedra": 3
+            "piedra": 3,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1563,7 +2185,12 @@
         "tipo": "estructura civil",
         "coste": {
             "arcilla": 2,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1579,7 +2206,12 @@
         "tipo": "estructura civil",
         "coste": {
             "arcilla": 2,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1595,7 +2227,12 @@
         "tipo": "estructura civil",
         "coste": {
             "mineral": 2,
-            "madera": 1
+            "madera": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1611,7 +2248,12 @@
         "tipo": "estructura civil",
         "coste": {
             "mineral": 2,
-            "madera": 1
+            "madera": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1628,7 +2270,11 @@
         "coste": {
             "arcilla": 1,
             "madera": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "papel": 0,
+            "tela": 0
         },
         "numero_jugadores": 3,
         "era": 2,
@@ -1640,7 +2286,11 @@
         "coste": {
             "arcilla": 1,
             "madera": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1657,7 +2307,11 @@
         "coste": {
             "piedra": 2,
             "mineral": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1674,7 +2328,11 @@
         "coste": {
             "piedra": 2,
             "mineral": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1735,7 +2393,9 @@
             "mineral": 1,
             "vidrio": 1,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "madera": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1754,7 +2414,9 @@
             "mineral": 1,
             "vidrio": 1,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "madera": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1771,7 +2433,12 @@
         "coste": {
             "madera": 2,
             "mineral": 1,
-            "pedra": 1
+            "pedra": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1788,7 +2455,12 @@
         "coste": {
             "madera": 2,
             "mineral": 1,
-            "pedra": 1
+            "pedra": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1804,7 +2476,12 @@
         "tipo": "estructura civil",
         "coste": {
             "arcilla": 2,
-            "madera": 1
+            "madera": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1820,7 +2497,12 @@
         "tipo": "estructura civil",
         "coste": {
             "arcilla": 2,
-            "madera": 1
+            "madera": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1836,7 +2518,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 1,
-            "arcilla": 3
+            "arcilla": 3,
+            "piedra": 0,
+            "mineral": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1852,7 +2539,12 @@
         "tipo": "estructura militar",
         "coste": {
             "madera": 1,
-            "arcilla": 3
+            "arcilla": 3,
+            "piedra": 0,
+            "mineral": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1868,7 +2560,12 @@
         "tipo": "estructura militar",
         "coste": {
             "mineral": 1,
-            "piedra": 3
+            "piedra": 3,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1884,7 +2581,12 @@
         "tipo": "estructura militar",
         "coste": {
             "mineral": 1,
-            "piedra": 3
+            "piedra": 3,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1900,7 +2602,12 @@
         "tipo": "estructura militar",
         "coste": {
             "mineral": 3,
-            "arcilla": 1
+            "arcilla": 1,
+            "piedra": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1916,7 +2623,12 @@
         "tipo": "estructura militar",
         "coste": {
             "mineral": 3,
-            "arcilla": 1
+            "arcilla": 1,
+            "piedra": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1933,7 +2645,11 @@
         "coste": {
             "arcilla": 2,
             "madera": 1,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1950,7 +2666,11 @@
         "coste": {
             "arcilla": 2,
             "madera": 1,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1967,7 +2687,11 @@
         "coste": {
             "mineral": 1,
             "madera": 2,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -1984,7 +2708,11 @@
         "coste": {
             "mineral": 1,
             "madera": 2,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2001,7 +2729,11 @@
         "coste": {
             "mineral": 2,
             "vidrio": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2018,7 +2750,11 @@
         "coste": {
             "mineral": 2,
             "vidrio": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2035,7 +2771,11 @@
         "coste": {
             "madera": 1,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2052,7 +2792,11 @@
         "coste": {
             "madera": 1,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2069,7 +2813,11 @@
         "coste": {
             "madera": 2,
             "papel": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2086,7 +2834,11 @@
         "coste": {
             "madera": 2,
             "papel": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2103,7 +2855,11 @@
         "coste": {
             "arcilla": 2,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2120,7 +2876,11 @@
         "coste": {
             "arcilla": 2,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2136,7 +2896,12 @@
         "tipo": "ciencia",
         "coste": {
             "piedra": 3,
-            "vidrio": 1
+            "vidrio": 1,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2152,7 +2917,12 @@
         "tipo": "ciencia",
         "coste": {
             "piedra": 3,
-            "vidrio": 1
+            "vidrio": 1,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2169,7 +2939,11 @@
         "coste": {
             "madera": 1,
             "mineral": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2187,7 +2961,11 @@
         "coste": {
             "madera": 1,
             "mineral": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2204,7 +2982,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "piedra": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2221,7 +3004,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "piedra": 1,
-            "vidrio": 1
+            "vidrio": 1,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2238,7 +3026,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "piedra": 2,
-            "mineral": 1
+            "mineral": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2255,7 +3048,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "piedra": 2,
-            "mineral": 1
+            "mineral": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2272,7 +3070,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "piedra": 1,
-            "mineral": 1
+            "mineral": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2289,7 +3092,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "piedra": 1,
-            "mineral": 1
+            "mineral": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2306,7 +3114,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "arcilla": 2,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2323,7 +3136,12 @@
         "tipo": "estructura comercial",
         "coste": {
             "arcilla": 2,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2340,7 +3158,12 @@
         "tipo": "guild",
         "coste": {
             "arcilla": 2,
-            "vidrio": 1
+            "vidrio": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2357,7 +3180,11 @@
         "coste": {
             "mineral": 2,
             "piedra": 1,
-            "tela": 1
+            "tela": 1,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2374,7 +3201,11 @@
         "coste": {
             "vidrio": 1,
             "papel": 1,
-            "tela": 1
+            "tela": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "arcilla": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2390,7 +3221,12 @@
         "tipo": "guild",
         "coste": {
             "mineral": 2,
-            "piedra": 2
+            "piedra": 2,
+            "madera": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2408,7 +3244,10 @@
             "mineral": 2,
             "piedra": 1,
             "madera": 1,
-            "arcilla": 1
+            "arcilla": 1,
+            "vidrio": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2425,7 +3264,11 @@
         "coste": {
             "piedra": 1,
             "madera": 3,
-            "tela": 1
+            "tela": 1,
+            "mineral": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "papel": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2442,7 +3285,11 @@
         "coste": {
             "mineral": 2,
             "madera": 2,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "arcilla": 0,
+            "vidrio": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2459,7 +3306,11 @@
         "coste": {
             "vidrio": 1,
             "madera": 3,
-            "papel": 1
+            "papel": 1,
+            "piedra": 0,
+            "mineral": 0,
+            "arcilla": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2476,7 +3327,11 @@
         "coste": {
             "vidrio": 1,
             "piedra": 3,
-            "arcilla": 2
+            "arcilla": 2,
+            "mineral": 0,
+            "madera": 0,
+            "papel": 0,
+            "tela": 0
         },
         "beneficio": {
             "opcion1": {
@@ -2493,7 +3348,11 @@
         "coste": {
             "tela": 1,
             "papel": 1,
-            "arcilla": 3
+            "arcilla": 3,
+            "piedra": 0,
+            "mineral": 0,
+            "madera": 0,
+            "vidrio": 0
         },
         "beneficio": {
             "opcion1": {

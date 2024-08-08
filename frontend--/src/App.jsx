@@ -5,11 +5,15 @@ function App() {
   const [cards, setCards] = useState([]);
   const [numPlayers, setNumPlayers] = useState(3);
   const [age, setAge] = useState(4);
-  const [type, setType] = useState([]);
-  const [Gold, setGold] = useState(false);
-  const [wool, setwool] = useState(false);
-  const [glass, setglass] = useState(false);
-  const [paper, setpaper] = useState(false);
+  const [type, setType] = useState('all');
+  const [wood, setwood] = useState(0);
+  const [stone, setstone] = useState(0);
+  const [clay, setclay] = useState(0);
+  const [ore, setore] = useState(0);
+  const [Gold, setGold] = useState(0);
+  const [wool, setwool] = useState(0);
+  const [glass, setglass] = useState(0);
+  const [paper, setpaper] = useState(0);
  
 
   const fetchData = async () => {
@@ -34,25 +38,41 @@ function App() {
   const handleTypeChange = (e) => {
     setType(e.target.value);
   }
-  const handleGoldChange = (e) => {
-    setGold(e.target.checked);
+  const handlewoodChange = (e) => {
+    setwood(e.target.value);
+  }
+  const handlestoneChange = (e) => {
+    setstone(e.target.value);
+  }
+  const handleclayChange = (e) => {
+    setclay(e.target.value);
+  }
+  const handleoreChange = (e) => {
+    setore(e.target.value);
+  }
+
+  const handleGoldChange = (value) => {
+    setGold(value);
   };
-  const handlewoolChange = (e) => {
-    setwool(e.target.checked);
+  const handlewoolChange = (value) => {
+    setwool(value);
   };
-  const handleglassChange = (e) => {
-    setglass(e.target.checked);
+
+  const handleglassChange = (value) => {
+    setglass(value);
   };
-  const handlepaperChange = (e) => {
-    setpaper(e.target.checked);
+
+  const handlepaperChange = (value) => {
+    setpaper(value);
   };
+
 
 // take the filtered data and send it to the backend
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5000/data/search', 
-        { numPlayers, age, type,Gold,wool,glass,paper });
+        { numPlayers, age, type,Gold,wool,glass,paper,wood,stone,clay,ore });
       setCards(response.data); // Update the cards state with the filtered cards
     } catch (error) {
       console.error('Error submitting data:', error);
@@ -100,20 +120,63 @@ function App() {
         </label>
         <label>
            Gold:
-          <input type="checkbox" checked={Gold} onChange={handleGoldChange} />
+           <input type="checkbox" checked={Gold === 1} onChange={(e) => handleGoldChange(e.target.checked ? 1 : 0)} />
         </label>
         <label>
            wool:
-          <input type="checkbox" checked={wool} onChange={handlewoolChange} />
+           <input type="checkbox" checked={wool === 1} onChange={(e) => handlewoolChange(e.target.checked ? 1 : 0)} />
         </label>
         <label>
            Glass:
-          <input type="checkbox" checked={glass} onChange={handleglassChange} />
+            <input type="checkbox" checked={glass === 1} onChange={(e) => handleglassChange(e.target.checked ? 1 : 0)} />
         </label>
         <label>
            paper:
-          <input type="checkbox" checked={paper} onChange={handlepaperChange} />
+            <input type="checkbox" checked={paper === 1} onChange={(e) => handlepaperChange(e.target.checked ? 1 : 0)} />
         </label>
+        <label>
+          wood:
+          <select value={wood} onChange={handlewoodChange}>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+        <label>
+          stone:
+          <select value={stone} onChange={handlestoneChange}>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+        <label>
+          clay:
+          <select value={clay} onChange={handleclayChange}>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+        <label>
+          ore:
+          <select value={ore} onChange={handleoreChange}>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+
+
+    
         <button type="submit">Submit</button>
       </form>
       
@@ -124,6 +187,7 @@ function App() {
           {cards.map((card, index) => (
             <li key={index}>
               <strong>{card.name}</strong><br />
+                
                - Number of Players: {card.numPlayers}<br />
                 - Age: {card.age}<br />
                 - Cost: {JSON.stringify(card.cost)}<br />
