@@ -59,29 +59,29 @@ def search():
         return type == 'all' or item.get('tipo') == type
 
     def filter_by_wood(item, wood):
-        return wood == 0 or item.get('coste', 0).get('madera', 0) <= wood
+        return  item.get('coste', 0).get('madera', 0) <= wood
     
     def filter_by_stone(item, stone):
-        return stone == 0 or item.get('coste', 0).get('piedra', 0) <= stone
+        return  item.get('coste', 0).get('piedra', 0) <= stone
     
     def filter_by_clay(item, clay):
-        return clay == 0 or item.get('coste', 0).get('arcilla', 0) <= clay
+        return  item.get('coste', 0).get('arcilla', 0) <= clay
     
 
     def filter_by_ore(item, ore):
-        return ore == 0 or item.get('coste', 0).get('mineral', 0) <= ore
+        return  item.get('coste', 0).get('mineral', 0) <= ore
 
     def filter_by_gold(item, gold):
-        return gold == 0 or item.get('coste', 0).get('oro', 0) <= gold
+        return item.get('coste', 0).get('oro', 0) <= gold
     
     def filter_by_wool(item, wool):
-        return wool == 0 or item.get('coste', 0).get('lana', 0) <= wool
+        return item.get('coste', 0).get('lana', 0) <= wool
     
     def filter_by_glass(item, glass ):
-        return glass == 0 or item.get('coste', 0).get('vidrio', 0) <= glass
+        return item.get('coste', 0).get('vidrio', 0) <= glass
     
     def filter_by_paper(item, paper):
-        return paper == 0 or item.get('coste', 0).get('papel', 0) <= paper
+        return item.get('coste', 0).get('papel', 0) <= paper
     
         
     
