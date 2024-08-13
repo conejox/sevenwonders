@@ -182,7 +182,7 @@ function App() {
       
 
       <div>
-        <h2>Cards</h2>
+        <h2>Cards</h2> 
         <ul>
           {cards.map((card, index) => (
             <li key={index}>
