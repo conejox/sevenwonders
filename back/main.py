@@ -1,7 +1,10 @@
-from flask import Flask, jsonify, request
-from flask_cors import CORS, cross_origin
 import json
 import os
+
+from flask import Flask, jsonify, request
+from flask_cors import CORS, cross_origin
+
+import filters as f
 
 app = Flask(__name__)
 cors = CORS(app,origins='*')
@@ -23,49 +26,25 @@ def card():
         'type': item.get('tipo', 'default_tipo'),
         'numPlayers': item.get('numero_jugadores', 10),
         'benefit': item.get('beneficio', {}),
-        'cost': item.get('coste', {}),
+        'cost': item.get('coste', 0),
         'age': item.get('era', 1),
         'quantity': item.get('cantidad', 1)
     } for item in data]
     
     return jsonify(card)
 
-# number of players, age and type
-@app.route('/data/numPlayers', methods=['POST'])
+# seach engine
+@app.route('/data/search', methods=['POST'])
 @cross_origin()
-def numPlayers():
-    num_players = int(request.json['numPlayers'])
-    age = int(request.json['age'])
-    type = str(request.json['type'])
-    gold = bool(request.json['Gold'])
-    wool = bool(request.json['wool'])
-    glass = bool(request.json['glass'])
-    paper = bool(request.json['paper'])
+def search():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(base_dir, 'cards.json')  # Use absolute path
-    data = load_json(file_path)
+    data = load_json(file_path)        
     
-    filtered_cards = [
-        {
-            'name': item.get('nombre', 'default_nombre'),
-            'type': item.get('tipo', 'default_tipo'),
-            'numPlayers': item.get('numero_jugadores', 10),
-            'benefit': item.get('beneficio', {}),
-            'cost': item['coste'] if isinstance(item.get('coste'), dict) else {},
-            'age': item.get('era',4),
-            'quantity': item.get('cantidad', 1)
-        }
-        for item in data 
-        if item.get('numero_jugadores', 10)<= num_players 
-        and (age == 4 or item.get('era') == age)
-        and (type == 'all' or item.get('tipo') == type)
-        and (not gold or ('oro' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        and (not wool or ('lana' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        and (not glass or ('vidrio' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        and (not paper or ('papel' in item['coste'] if isinstance(item.get('coste'), dict) else False))
-        ]
-    
+    filtered_cards = f.filter_cards(data, request.json)
+
     print(filtered_cards)
+    print(len(filtered_cards))
     return jsonify(filtered_cards)
 
     
