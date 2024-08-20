@@ -1,7 +1,15 @@
 [
     {
         "nombre": "forest cave",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -26,7 +34,15 @@
     },
     {
         "nombre": "clay pit",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -51,7 +67,15 @@
     },
     {
         "nombre": "timber yard",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -76,7 +100,15 @@
     },
     {
         "nombre": "excavation",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -101,7 +133,15 @@
     },
     {
         "nombre": "mine",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -126,7 +166,15 @@
     },
     {
         "nombre": "ore vein",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -147,7 +195,15 @@
     },
     {
         "nombre": "ore vein",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -168,7 +224,15 @@
     },
     {
         "nombre": "clay pool",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -189,7 +253,15 @@
     },
     {
         "nombre": "clay pool",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -210,7 +282,15 @@
     },
     {
         "nombre": "lumber yard",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -231,7 +311,15 @@
     },
     {
         "nombre": "lumber yard",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -252,7 +340,15 @@
     },
     {
         "nombre": "stone pit",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -273,7 +369,15 @@
     },
     {
         "nombre": "stone pit",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -294,7 +398,15 @@
     },
     {
         "nombre": "loom",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -315,7 +427,15 @@
     },
     {
         "nombre": "loom",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -336,7 +456,15 @@
     },
     {
         "nombre": "press",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -357,7 +485,15 @@
     },
     {
         "nombre": "press",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -378,7 +514,15 @@
     },
     {
         "nombre": "glassworks",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -399,7 +543,15 @@
     },
     {
         "nombre": "glassworks",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -420,7 +572,15 @@
     },
     {
         "nombre": "barracks",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 1,
             "piedra": 0,
@@ -441,7 +601,15 @@
     },
     {
         "nombre": "barracks",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 1,
             "piedra": 0,
@@ -462,7 +630,15 @@
     },
     {
         "nombre": "guard tower",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 1,
             "piedra": 0,
@@ -483,7 +659,15 @@
     },
     {
         "nombre": "guard tower",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 1,
             "piedra": 0,
@@ -504,7 +688,15 @@
     },
     {
         "nombre": "stockade",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "piedra": 0,
@@ -525,7 +717,15 @@
     },
     {
         "nombre": "stockade",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "piedra": 0,
@@ -546,7 +746,15 @@
     },
     {
         "nombre": "tavern",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -567,7 +775,15 @@
     },
     {
         "nombre": "tavern",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -588,7 +804,15 @@
     },
     {
         "nombre": "tavern",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -609,7 +833,15 @@
     },
     {
         "nombre": "east trading post",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -655,7 +887,15 @@
     },
     {
         "nombre": "east trading post",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -701,7 +941,15 @@
     },
     {
         "nombre": "west trading post",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -747,7 +995,15 @@
     },
     {
         "nombre": "west trading post",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -793,7 +1049,15 @@
     },
     {
         "nombre": "marketplace",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -832,7 +1096,15 @@
     },
     {
         "nombre": "marketplace",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -871,7 +1143,15 @@
     },
     {
         "nombre": "scriptorium",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "papel": 1,
             "piedra": 0,
@@ -894,7 +1174,15 @@
     },
     {
         "nombre": "scriptorium",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "papel": 1,
             "piedra": 0,
@@ -917,7 +1205,15 @@
     },
     {
         "nombre": "apothecary",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "tela": 1,
             "piedra": 0,
@@ -940,7 +1236,15 @@
     },
     {
         "nombre": "apothecary",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "tela": 1,
             "piedra": 0,
@@ -963,7 +1267,15 @@
     },
     {
         "nombre": "workshop",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "vidrio": 1,
             "piedra": 0,
@@ -986,7 +1298,15 @@
     },
     {
         "nombre": "workshop",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "vidrio": 1,
             "piedra": 0,
@@ -1009,7 +1329,15 @@
     },
     {
         "nombre": "altar",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1031,7 +1359,15 @@
     },
     {
         "nombre": "altar",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1053,7 +1389,15 @@
     },
     {
         "nombre": "well",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1075,7 +1419,15 @@
     },
     {
         "nombre": "well",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1097,7 +1449,15 @@
     },
     {
         "nombre": "theater",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1119,7 +1479,15 @@
     },
     {
         "nombre": "theater",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1141,9 +1509,18 @@
     },
     {
         "nombre": "baths",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
-            "piedra": 1,
+            "pedra": 1,
+            "piedra": 0,
             "mineral": 0,
             "madera": 0,
             "arcilla": 0,
@@ -1163,9 +1540,18 @@
     },
     {
         "nombre": "baths",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
-            "piedra": 1,
+            "pedra": 1,
+            "piedra": 0,
             "mineral": 0,
             "madera": 0,
             "arcilla": 0,
@@ -1185,7 +1571,15 @@
     },
     {
         "nombre": "sawmill",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1207,7 +1601,15 @@
     },
     {
         "nombre": "sawmill",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1229,7 +1631,15 @@
     },
     {
         "nombre": "quarry",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1251,7 +1661,15 @@
     },
     {
         "nombre": "quarry",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1273,7 +1691,15 @@
     },
     {
         "nombre": "brickyard",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1295,7 +1721,15 @@
     },
     {
         "nombre": "brickyard",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1317,7 +1751,15 @@
     },
     {
         "nombre": "foundry",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1339,7 +1781,15 @@
     },
     {
         "nombre": "foundry",
-        "tipo": "materia prima",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 1,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "oro": 1,
             "piedra": 0,
@@ -1361,7 +1811,15 @@
     },
     {
         "nombre": "loom",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1382,7 +1840,15 @@
     },
     {
         "nombre": "loom",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1403,7 +1869,15 @@
     },
     {
         "nombre": "press",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1424,7 +1898,15 @@
     },
     {
         "nombre": "press",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1445,7 +1927,15 @@
     },
     {
         "nombre": "glassworks",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1466,7 +1956,15 @@
     },
     {
         "nombre": "glassworks",
-        "tipo": "bienes manufacturados",
+        "tipo": {
+            "bienes manufacturados": 1,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1487,7 +1985,15 @@
     },
     {
         "nombre": "caravansery",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "piedra": 0,
@@ -1520,7 +2026,15 @@
     },
     {
         "nombre": "caravansery",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "piedra": 0,
@@ -1553,7 +2067,15 @@
     },
     {
         "nombre": "caravansery",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "piedra": 0,
@@ -1586,7 +2108,15 @@
     },
     {
         "nombre": "forum",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "piedra": 0,
@@ -1616,7 +2146,15 @@
     },
     {
         "nombre": "forum",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "piedra": 0,
@@ -1646,7 +2184,15 @@
     },
     {
         "nombre": "forum",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "piedra": 0,
@@ -1676,7 +2222,15 @@
     },
     {
         "nombre": "bazar",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1697,7 +2251,15 @@
     },
     {
         "nombre": "bazar",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1718,7 +2280,15 @@
     },
     {
         "nombre": "vineyard",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1739,7 +2309,15 @@
     },
     {
         "nombre": "vineyard",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 0,
             "mineral": 0,
@@ -1760,7 +2338,15 @@
     },
     {
         "nombre": "training ground",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 2,
@@ -1782,7 +2368,15 @@
     },
     {
         "nombre": "training ground",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 2,
@@ -1804,7 +2398,15 @@
     },
     {
         "nombre": "training ground",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 2,
@@ -1826,7 +2428,15 @@
     },
     {
         "nombre": "walls",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 3,
             "mineral": 0,
@@ -1848,7 +2458,15 @@
     },
     {
         "nombre": "walls",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 3,
             "mineral": 0,
@@ -1870,7 +2488,15 @@
     },
     {
         "nombre": "archery range",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "mineral": 1,
@@ -1891,7 +2517,15 @@
     },
     {
         "nombre": "archery range",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "mineral": 1,
@@ -1912,7 +2546,15 @@
     },
     {
         "nombre": "stables",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 1,
@@ -1933,7 +2575,15 @@
     },
     {
         "nombre": "stables",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 1,
@@ -1954,7 +2604,15 @@
     },
     {
         "nombre": "school",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "papel": 1,
@@ -1977,7 +2635,15 @@
     },
     {
         "nombre": "school",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "papel": 1,
@@ -2000,7 +2666,15 @@
     },
     {
         "nombre": "library",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "piedra": 2,
             "tela": 1,
@@ -2023,7 +2697,15 @@
     },
     {
         "nombre": "library",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "piedra": 2,
             "tela": 1,
@@ -2046,7 +2728,15 @@
     },
     {
         "nombre": "laboratory",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "papel": 1,
@@ -2069,7 +2759,15 @@
     },
     {
         "nombre": "laboratory",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "papel": 1,
@@ -2092,7 +2790,15 @@
     },
     {
         "nombre": "dispensary",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "mineral": 2,
             "vidrio": 1,
@@ -2115,7 +2821,15 @@
     },
     {
         "nombre": "dispensary",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "mineral": 2,
             "vidrio": 1,
@@ -2138,7 +2852,15 @@
     },
     {
         "nombre": "aqueduct",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 3,
             "mineral": 0,
@@ -2159,7 +2881,15 @@
     },
     {
         "nombre": "aqueduct",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 3,
             "mineral": 0,
@@ -2180,7 +2910,15 @@
     },
     {
         "nombre": "courthouse",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "tela": 1,
@@ -2201,7 +2939,15 @@
     },
     {
         "nombre": "courthouse",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "tela": 1,
@@ -2222,7 +2968,15 @@
     },
     {
         "nombre": "statue",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 2,
             "madera": 1,
@@ -2243,7 +2997,15 @@
     },
     {
         "nombre": "statue",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 2,
             "madera": 1,
@@ -2264,7 +3026,15 @@
     },
     {
         "nombre": "temple",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 1,
             "madera": 1,
@@ -2280,7 +3050,15 @@
     },
     {
         "nombre": "temple",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 1,
             "madera": 1,
@@ -2301,7 +3079,15 @@
     },
     {
         "nombre": "town hall",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 2,
             "mineral": 1,
@@ -2322,7 +3108,15 @@
     },
     {
         "nombre": "town hall",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 2,
             "mineral": 1,
@@ -2343,7 +3137,15 @@
     },
     {
         "nombre": "palace",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 1,
             "mineral": 1,
@@ -2364,7 +3166,15 @@
     },
     {
         "nombre": "palace",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 1,
             "mineral": 1,
@@ -2385,7 +3195,15 @@
     },
     {
         "nombre": "pantheon",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "mineral": 1,
@@ -2406,7 +3224,15 @@
     },
     {
         "nombre": "pantheon",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "mineral": 1,
@@ -2427,11 +3253,20 @@
     },
     {
         "nombre": "senate",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "mineral": 1,
-            "piedra": 1,
+            "pedra": 1,
+            "piedra": 0,
             "arcilla": 0,
             "vidrio": 0,
             "papel": 0,
@@ -2448,11 +3283,20 @@
     },
     {
         "nombre": "senate",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "mineral": 1,
-            "piedra": 1,
+            "pedra": 1,
+            "piedra": 0,
             "arcilla": 0,
             "vidrio": 0,
             "papel": 0,
@@ -2469,7 +3313,15 @@
     },
     {
         "nombre": "gardens",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "madera": 1,
@@ -2490,7 +3342,15 @@
     },
     {
         "nombre": "gardens",
-        "tipo": "estructura civil",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 1,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "madera": 1,
@@ -2511,7 +3371,15 @@
     },
     {
         "nombre": "siege workshop",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "arcilla": 3,
@@ -2532,7 +3400,15 @@
     },
     {
         "nombre": "siege workshop",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "arcilla": 3,
@@ -2553,7 +3429,15 @@
     },
     {
         "nombre": "circus",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 1,
             "piedra": 3,
@@ -2574,7 +3458,15 @@
     },
     {
         "nombre": "circus",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 1,
             "piedra": 3,
@@ -2595,7 +3487,15 @@
     },
     {
         "nombre": "fortifications",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 3,
             "arcilla": 1,
@@ -2616,7 +3516,15 @@
     },
     {
         "nombre": "fortifications",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 3,
             "arcilla": 1,
@@ -2637,7 +3545,15 @@
     },
     {
         "nombre": "castrum",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "madera": 1,
@@ -2658,7 +3574,15 @@
     },
     {
         "nombre": "castrum",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "madera": 1,
@@ -2679,7 +3603,15 @@
     },
     {
         "nombre": "arsenal",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 1,
             "madera": 2,
@@ -2700,7 +3632,15 @@
     },
     {
         "nombre": "arsenal",
-        "tipo": "estructura militar",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 1,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "mineral": 1,
             "madera": 2,
@@ -2721,7 +3661,15 @@
     },
     {
         "nombre": "observatory",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "mineral": 2,
             "vidrio": 1,
@@ -2742,7 +3690,15 @@
     },
     {
         "nombre": "observatory",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "mineral": 2,
             "vidrio": 1,
@@ -2763,7 +3719,15 @@
     },
     {
         "nombre": "study",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "papel": 1,
@@ -2784,7 +3748,15 @@
     },
     {
         "nombre": "study",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "papel": 1,
@@ -2805,7 +3777,15 @@
     },
     {
         "nombre": "university",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "papel": 1,
@@ -2826,7 +3806,15 @@
     },
     {
         "nombre": "university",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "madera": 2,
             "papel": 1,
@@ -2847,7 +3835,15 @@
     },
     {
         "nombre": "lodge",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "papel": 1,
@@ -2868,7 +3864,15 @@
     },
     {
         "nombre": "lodge",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "papel": 1,
@@ -2889,7 +3893,15 @@
     },
     {
         "nombre": "academy",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "piedra": 3,
             "vidrio": 1,
@@ -2910,7 +3922,15 @@
     },
     {
         "nombre": "academy",
-        "tipo": "ciencia",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 1,
+            "guild": 0
+        },
         "coste": {
             "piedra": 3,
             "vidrio": 1,
@@ -2931,7 +3951,15 @@
     },
     {
         "nombre": "haven",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 1,
@@ -2953,7 +3981,15 @@
     },
     {
         "nombre": "haven",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "madera": 1,
             "mineral": 1,
@@ -2975,7 +4011,15 @@
     },
     {
         "nombre": "lighthouse",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 1,
             "vidrio": 1,
@@ -2997,7 +4041,15 @@
     },
     {
         "nombre": "lighthouse",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 1,
             "vidrio": 1,
@@ -3019,7 +4071,15 @@
     },
     {
         "nombre": "arena",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 2,
             "mineral": 1,
@@ -3041,7 +4101,15 @@
     },
     {
         "nombre": "arena",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 2,
             "mineral": 1,
@@ -3063,7 +4131,15 @@
     },
     {
         "nombre": "ludus",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 1,
             "mineral": 1,
@@ -3085,7 +4161,15 @@
     },
     {
         "nombre": "ludus",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "piedra": 1,
             "mineral": 1,
@@ -3107,7 +4191,15 @@
     },
     {
         "nombre": "chamber of comerce",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "papel": 1,
@@ -3129,7 +4221,15 @@
     },
     {
         "nombre": "chamber of comerce",
-        "tipo": "estructura comercial",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 1,
+            "ciencia": 0,
+            "guild": 0
+        },
         "coste": {
             "arcilla": 2,
             "papel": 1,
@@ -3151,7 +4251,15 @@
     },
     {
         "nombre": "spies guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "arcilla": 2,
             "vidrio": 1,
@@ -3172,7 +4280,15 @@
     },
     {
         "nombre": "decorators guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "mineral": 2,
             "piedra": 1,
@@ -3193,7 +4309,15 @@
     },
     {
         "nombre": "traders guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "vidrio": 1,
             "papel": 1,
@@ -3214,7 +4338,15 @@
     },
     {
         "nombre": "craftsmen guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "mineral": 2,
             "piedra": 2,
@@ -3235,7 +4367,15 @@
     },
     {
         "nombre": "workers guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "mineral": 2,
             "piedra": 1,
@@ -3256,7 +4396,15 @@
     },
     {
         "nombre": "magistrates guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "piedra": 1,
             "madera": 3,
@@ -3277,7 +4425,15 @@
     },
     {
         "nombre": "scientist guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "mineral": 2,
             "madera": 2,
@@ -3298,7 +4454,15 @@
     },
     {
         "nombre": "shipowners guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "vidrio": 1,
             "madera": 3,
@@ -3319,7 +4483,15 @@
     },
     {
         "nombre": "builders guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "vidrio": 1,
             "piedra": 3,
@@ -3340,7 +4512,15 @@
     },
     {
         "nombre": "philosophers guild",
-        "tipo": "guild",
+        "tipo": {
+            "bienes manufacturados": 0,
+            "estructura militar": 0,
+            "materia prima": 0,
+            "estructura civil": 0,
+            "estructura comercial": 0,
+            "ciencia": 0,
+            "guild": 1
+        },
         "coste": {
             "tela": 1,
             "papel": 1,
