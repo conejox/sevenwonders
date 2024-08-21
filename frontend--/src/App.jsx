@@ -119,6 +119,7 @@ function App() {
 
   return (
     <div>
+      <img src='/images/sev-logo-gold-16128779869FV5n-large.png'className='logo' alt='Example' />
       <h1>Card Data</h1>
       <form onSubmit={handleSubmit}>
         <h2>Filter Cards</h2>
@@ -273,7 +274,7 @@ function App() {
             <div className='card' key={index}>
               <strong>{card.name}</strong>
               <br />
-              - Number of Players: {card.numPlayers}
+              
               <br />
               - Age: {card.age}
               <br />
