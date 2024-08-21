@@ -1,42 +1,95 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+h1{align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+h2{align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 20px;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.form-group{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    border:  color #000000;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 260px;
+}
+.type{
+    align-items: flex-end;
+    align-content: stretch;
+    flex-grow:1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b-group{
+    align-items: flex-end;
+    align-content: stretch;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+    flex-grow:1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cost-group{
+    align-items: flex-end;
+    align-content: stretch;
+
+    flex-grow:1;
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 .card {
-  padding: 2em;
+  flex: 1 1 calc(20% - 10px); /* Adjust the width to fit 5 items per row, considering margins */
+  margin: 5px; /* Optional: To add space around each card */
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  border: 10px solid #090707; /* Optional: Add border to cards */
+  padding: 10px; /* Optional: Add padding to cards */
+  background-color: #f9f9f9; /* Optional: Add background color to cards */
 }
-
-.read-the-docs {
-  color: #888;
+.logo{
+    align-self: center;
 }

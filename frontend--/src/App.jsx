@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import './App.css';
 
 function App() {
   const [cards, setCards] = useState([]);
@@ -118,69 +119,74 @@ function App() {
 
   return (
     <div>
+      <img src='/images/sev-logo-gold-16128779869FV5n-large.png'className='logo' alt='Example' />
       <h1>Card Data</h1>
       <form onSubmit={handleSubmit}>
         <h2>Filter Cards</h2>
-        <strong>type:</strong>
-        <label>
-          base material
-          <input
-            type="checkbox"
-            checked={baseMaterial === 1}
-            onChange={(e) => handleBaseMaterialChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
-        <label>
-          manufactured products
-          <input
-            type="checkbox"
-            checked={manufacturedProducts === 1}
-            onChange={(e) => handleManufacturedProductsChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
-        <label>
-          Commercial Buildings
-          <input
-            type="checkbox"
-            checked={comercial === 1}
-            onChange={(e) => handleComercialChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
-        <label>
-          science
-          <input
-            type="checkbox"
-            checked={science === 1}
-            onChange={(e) => handledscienceChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
-        <label>
-          military buildings
-          <input
-            type="checkbox"
-            checked={military === 1}
-            onChange={(e) => handleMilitaryChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
-        <label>civil buildings
-          <input
-            type="checkbox"
-            checked={civil === 1}
-            onChange={(e) => handleCivilChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
+      <div className="form-group">
+        <div className="type">
+          <strong>type:</strong>
+          <label>
+            base material
+            <input
+              type="checkbox"
+              checked={baseMaterial === 1}
+              onChange={(e) => handleBaseMaterialChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
+          <label>
+            manufactured products
+            <input
+              type="checkbox"
+              checked={manufacturedProducts === 1}
+              onChange={(e) => handleManufacturedProductsChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
+          <label>
+            Commercial Buildings
+            <input
+              type="checkbox"
+              checked={comercial === 1}
+              onChange={(e) => handleComercialChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
+          <label>
+            science
+            <input
+              type="checkbox"
+              checked={science === 1}
+              onChange={(e) => handledscienceChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
+          <label>
+            military buildings
+            <input
+              type="checkbox"
+              checked={military === 1}
+              onChange={(e) => handleMilitaryChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
+          <label>civil buildings
+            <input
+              type="checkbox"
+              checked={civil === 1}
+              onChange={(e) => handleCivilChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
 
 
-        <label>
-          guilds
-          <input
-            type="checkbox"
-            checked={guild === 1}
-            onChange={(e) => handleGuildChange(e.target.checked ? 1 : 0)}
-          />
-        </label>
-        <label>
-          <strong>Age:</strong>
+          <label>
+            guilds
+            <input
+              type="checkbox"
+              checked={guild === 1}
+              onChange={(e) => handleGuildChange(e.target.checked ? 1 : 0)}
+            />
+          </label>
+          </div>
+        <div className="b-group">  
+        <label><strong>Age:</strong>
+          
           <select value={age} onChange={handleAgeChange}>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -188,8 +194,8 @@ function App() {
             <option value="4">all</option>
           </select>
         </label>
-        <label>
-          <strong>Number of Players:</strong>
+        <label><strong>Number of Players:</strong>
+
           <select value={numPlayers} onChange={handleNumPlayersChange}>
             <option value="3">3</option>
             <option value="4">4</option>
@@ -199,26 +205,24 @@ function App() {
             <option value="10">10</option>
           </select>
         </label>
-        <label>
-          Gold:
+        <label>Gold:
           <input type="checkbox" 
           checked={Gold === 1}
           onChange={(e) => handleGoldChange(e.target.checked ? 1 : 0)} />
         </label>
-        <label>
-          wool:
+        <label>wool:
           <input type="checkbox" checked={wool === 1} onChange={(e) => handlewoolChange(e.target.checked ? 1 : 0)} />
         </label>
-        <label>
-          Glass:
+        <label>Glass:
           <input type="checkbox" checked={glass === 1} onChange={(e) => handleglassChange(e.target.checked ? 1 : 0)} />
         </label>
-        <label>
-          paper:
+        <label> paper:
+         
           <input type="checkbox" checked={paper === 1} onChange={(e) => handlepaperChange(e.target.checked ? 1 : 0)} />
         </label>
-        <label>
-          wood:
+        </div>
+        <div className="cost-group">
+        <label> wood:
           <select value={wood} onChange={handlewoodChange}>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -227,8 +231,7 @@ function App() {
             <option value="4">4</option>
           </select>
         </label>
-        <label>
-          stone:
+        <label>stone:
           <select value={stone} onChange={handlestoneChange}>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -237,8 +240,7 @@ function App() {
             <option value="4">4</option>
           </select>
         </label>
-        <label>
-          clay:
+        <label>clay:
           <select value={clay} onChange={handleclayChange}>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -247,8 +249,7 @@ function App() {
             <option value="4">4</option>
           </select>
         </label>
-        <label>
-          ore:
+        <label> ore:
           <select value={ore} onChange={handleoreChange}>
             <option value="0">0</option>
             <option value="1">1</option>
@@ -257,16 +258,23 @@ function App() {
             <option value="4">4</option>
           </select>
         </label>
-      <button type="submit">Submit</button>
+        
+        
+        <div className='submitbuttom'>
+          <button type="submit">Submit</button>
+        </div>
+        </div>
+      </div>  
       </form>
+      
       <div>
         <h2>Cards</h2>
-        <ul>
+        <div className='cards-container'>
           {cards.map((card, index) => (
-            <li key={index}>
+            <div className='card' key={index}>
               <strong>{card.name}</strong>
               <br />
-              - Number of Players: {card.numPlayers}
+              
               <br />
               - Age: {card.age}
               <br />
@@ -274,9 +282,9 @@ function App() {
               <br />
               - Cost: {JSON.stringify(card.cost)}
               <br />
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
