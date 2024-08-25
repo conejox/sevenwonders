@@ -74,13 +74,13 @@ def filter_cards(data, request_json):
 
     filtered_cards = [
         {
-            'name': item.get('nombre', 'default_nombre'),
-            'type': item.get('tipo'),
-            'numPlayers': item.get('numero_jugadores', 10),
-            'benefit': item.get('beneficio', {}),
-            'cost': item.get('coste', 0),  
-            'age': item.get('era', 4),
-            'quantity': item.get('cantidad', 1)
+        'name': item.get('nombre', 'default_nombre'),
+        'type': next((k for k, v in item.get('tipo', {}).items() if v > 0), 'default_tipo'),  # Get the key with value > 0
+        'numPlayers': item.get('numero_jugadores', 10),
+        'benefit': item.get('beneficio', {}),
+        'cost': next((k for k, v in item.get('coste', {}).items() if v > 0), 'none'),  # Get the key with value > 0
+        'age': item.get('era', 1),
+        'quantity': item.get('cantidad', 1)
         }
         for item in data 
         if filter_by_num_players(item, num_players) and

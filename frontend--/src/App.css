@@ -1,95 +1,158 @@
-h1{align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 50px;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow:auto;
 }
 
-h2{align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 30px;
-    color: #000000;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-
+.background::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('C:/Users/alber/Desktop/estudio/sevenwonders/frontend--/public/images/rodas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    opacity: 0.45; 
+    z-index: -1; 
 }
-.form-group{
-    flex-direction: row;
+
+.allpage {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    padding: 10px; 
+    height: 100vh;
+    position: relative;
+  
+     
+}
+
+.toolbox {
+
+    flex: 0 0 50%; 
+}
+
+.form-group {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    border: 1px solid #ccc;
+    width: 100%; 
+    justify-content: center ;
+}
+
+.form-agecost {
+    flex: 1 1 49%; 
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #ccc;
+    justify-content: flex-end; /* Align items to the bottom */
+    align-items: center; /* Center items horizontally */
+    
+}
+.form-playertype {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid #ccc;
+    justify-content: flex-end; /* Align items to the bottom */
+    align-items: center; /* Center items horizontally */
+}
+
+.cost {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    border:  color #000000;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 260px;
-}
-.type{
-    align-items: flex-end;
-    align-content: stretch;
-    flex-grow:1;
-    flex-basis: 200px;
-    display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.b-group{
     align-items: flex-end;
-    align-content: stretch;
+    
+}
 
-    flex-grow:1;
-    flex-basis: 200px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.cost-group{
-    align-items: flex-end;
-    align-content: stretch;
 
-    flex-grow:1;
-    flex-basis: 200px;
-    display: flex;
+.type {
+    display: flex; 
     flex-direction: column;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    align-items: flex-end;
 }
+              
+.submitbutton {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+}
+
+
 .cards-container {
+    flex: 0 0 50%; 
+}
+
+.logo-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100%; 
+}
+
+.card-filter {
+    margin-top: 0px; 
+}
+
+.logo {
+    width: 620px; 
+    height: auto; 
+    margin-bottom: 0px; 
+}
+
+body {
+    overflow-x: hidden;
+}
+.cards-display {
+    display:grid;
+    border: 2px solid #282323;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
 
 }
+.card-type-materia-prima {
+    border: 5px solid rgb(151, 39, 39);
+}
+.card-type-bienes-manufacturados {
+    border: 5px solid rgb(160, 160, 163);
+}
+
+.card-type-estructura-militar {
+    border: 5px solid red;
+}
+
+.card-type-estructura-civil {
+    border: 5px solid rgb(41, 13, 184);
+}
+
+.card-type-estructura-comercial {
+    border: 5px solid yellow;
+}
+
+.card-type-ciencia {
+    border: 5px solid rgb(51, 172, 17);
+}
+
+.card-type-guild {
+    border: 5px solid rgb(120, 46, 108);
+}
+
 
 .card {
-  flex: 1 1 calc(20% - 10px); /* Adjust the width to fit 5 items per row, considering margins */
-  margin: 5px; /* Optional: To add space around each card */
-  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
-  border: 10px solid #090707; /* Optional: Add border to cards */
-  padding: 10px; /* Optional: Add padding to cards */
-  background-color: #f9f9f9; /* Optional: Add background color to cards */
-}
-.logo{
-    align-self: center;
+    
+    padding: 10px; /* Add some padding inside each card */
+    margin: 10px; /* Add some margin between cards */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
 }
