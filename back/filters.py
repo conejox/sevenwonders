@@ -1,8 +1,18 @@
 def filter_by_num_players(item, num_players):
     return item.get('numero_jugadores', 10) <= num_players
 
-def filter_by_age(item, age):
-    return age == 4 or item.get('era') == age
+def filter_by_age1(item, age1):
+  return item.get('era', {}).get('1', 0) <= age1 
+
+def filter_by_age2(item, age2):
+    return item.get('era', {}).get('2', 0) <= age2
+
+def filter_by_age3(item, age3):
+    return item.get('era', {}).get('3', 0) <= age3
+ 
+
+
+
 #tipo
 def filter_by_baseMaterial(item, baseMaterial):
     return item.get('tipo', {}).get('materia prima', 0) <= baseMaterial
@@ -44,7 +54,7 @@ def filter_by_gold(item, gold):
     return item.get('coste', {}).get('oro', 0) <= gold
 
 def filter_by_wool(item, wool):
-    return item.get('coste', {}).get('lana', 0) <= wool
+    return item.get('coste', {}).get('tela', 0) <= wool
 
 def filter_by_glass(item, glass):
     return item.get('coste', {}).get('vidrio', 0) <= glass
@@ -54,7 +64,9 @@ def filter_by_paper(item, paper):
 
 def filter_cards(data, request_json):
     num_players = int(request_json['numPlayers'])
-    age = int(request_json['age'])
+    age1 = int(request_json['age1'])
+    age2 = int(request_json['age2'])
+    age3 = int(request_json['age3'])
     baseMaterial = int(request_json['baseMaterial'])
     manufacturedProducts = int(request_json['manufacturedProducts'])
     military = int(request_json['military'])
@@ -62,7 +74,6 @@ def filter_cards(data, request_json):
     civil = int(request_json['civil'])
     science = int(request_json['science'])
     guild = int(request_json['guild'])
-    
     wood = int(request_json['wood'])
     stone = int(request_json['stone'])
     clay = int(request_json['clay'])
@@ -78,13 +89,15 @@ def filter_cards(data, request_json):
         'type': next((k for k, v in item.get('tipo', {}).items() if v > 0), 'default_tipo'),  # Get the key with value > 0
         'numPlayers': item.get('numero_jugadores', 10),
         'benefit': item.get('beneficio', {}),
-        'cost': next((k for k, v in item.get('coste', {}).items() if v > 0), 'none'),  # Get the key with value > 0
-        'age': item.get('era', 1),
+        'cost': [(k, v) for k, v in item.get('coste', {}).items() if v > 0],  
+        'age': item.get('era'),
         'quantity': item.get('cantidad', 1)
         }
         for item in data 
         if filter_by_num_players(item, num_players) and
-           filter_by_age(item, age) and
+           filter_by_age1(item, age1) and
+           filter_by_age2(item, age2) and
+           filter_by_age3(item, age3) and
            filter_by_baseMaterial(item, baseMaterial) and
            filter_by_manufacturedProducts(item, manufacturedProducts) and
            filter_by_military(item, military) and
