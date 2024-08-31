@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   const [cards, setCards] = useState([]);
   const [numPlayers, setNumPlayers] = useState(3);
-  const [age, setAge] = useState(4);
+  const [age1, setAge1] = useState(1);
+  const [age2, setAge2] = useState(1);
+  const [age3, setAge3] = useState(1);
   const [baseMaterial, setBaseMaterial] = useState(1);
   const [manufacturedProducts, setManufacturedProducts] = useState(1);
   const [comercial, setCommercial] = useState(1);
@@ -38,8 +40,14 @@ function App() {
   const handleNumPlayersChange = (e) => {
     setNumPlayers(e.target.value);
   };
-  const handleAgeChange = (e) => {
-    setAge(e.target.value);
+  const handleAge1Change =(value) => {
+    setAge1(value);
+  };
+  const handleAge2Change = (value) => {
+    setAge2(value);
+  };
+  const handleAge3Change = (value) => {
+    setAge3(value);
   };
   const handleBaseMaterialChange = (value) => {
     setBaseMaterial(value);
@@ -114,7 +122,9 @@ function App() {
     try {
       const response = await axios.post('http://localhost:5000/data/search', {
         numPlayers,
-        age,
+        age1,
+        age2,
+        age3,
         baseMaterial,
         manufacturedProducts,
         comercial,
@@ -154,52 +164,61 @@ function App() {
               <form onSubmit={handleSubmit}className="form-group">
                   <div className="form-agecost">
                     <label><strong>Age:</strong>
+                    <label className='age1checkbox'>1
+                    <input 
+                          type="checkbox"
+                          checked={age1 === 1}
+                          onChange={(e) => handleAge1Change(e.target.checked ? 1 : 0)}
+                          
+                        />
+                    </label> 
+                    <label>2
+                    <input 
+                          type="checkbox"
+                          checked={age2 === 1}
+                          onChange={(e) => handleAge2Change(e.target.checked ? 1 : 0)}
+                        />
+                        </label>
+                    <label>3
+                    <input 
+                          type="checkbox"
+                          checked={age3 === 1}
+                          onChange={(e) => handleAge3Change(e.target.checked ? 1 : 0)}
+                        />
+                       </label>  
+
                         
-                        <select value={age} onChange={handleAgeChange}>
-                          <option value="1">1</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option>
-                          <option value="4">all</option>
-                        </select>
+                      
                       </label>
                     <strong>Cost:</strong>  
                     <label className='cost'>
                     <label> wood:
-                      <select value={wood} onChange={handlewoodChange}>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                      </select>
+                      <input type='range' min="0" max="4"
+                        value={wood} onChange={handlewoodChange}/>
+
+                      <span>{wood}</span> 
+                      
                     </label>
-                    <label>stone:
-                      <select value={stone} onChange={handlestoneChange}>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                      </select>
+                    <label>Stone:
+                      <input type="range" min="0" max="4"
+                        value={stone} onChange={handlestoneChange}
+                      />
+                      <span>{stone}</span>
                     </label>
+
                     <label>clay:
-                      <select value={clay} onChange={handleclayChange}>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                      </select>
+                      <input type="range" min="0" max="4"
+                        value={clay} onChange={handleclayChange}
+                      />
+                      <span>{clay}</span>
                     </label>
                     <label> ore:
-                      <select value={ore} onChange={handleoreChange}>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                      </select>
+                      <input type="range" min="0" max="4"
+                        value={ore} onChange={handleoreChange}
+                      />
+                      <span>{ore}</span>
                     </label>
+                      
                     <label>Gold:
                     <input type="checkbox" 
                     checked={Gold === 1}
@@ -302,12 +321,11 @@ function App() {
                   <br />
                   
                   <br />
-                  - Age: {card.age}
+                  - Age:{JSON.stringify(card.age)}
                   <br />
                   - Type: {JSON.stringify(card.type)}
                   <br />
-                  - Cost: {JSON.stringify(card.cost)}
-                  <br />
+                  - Cost: {JSON.stringify(card.cost)}           
                 </div>
               ))}
             </div>{/* class="cards-display" */}

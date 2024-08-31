@@ -2,13 +2,13 @@
     {
         "nombre": "forest cave",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -29,19 +29,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "clay pit",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -62,19 +66,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "timber yard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -95,19 +103,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "excavation",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -128,19 +140,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "mine",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -161,19 +177,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "ore vein",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -190,19 +210,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "ore vein",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -219,19 +243,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "clay pool",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -248,19 +276,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "clay pool",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -277,19 +309,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "lumber yard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -306,19 +342,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "lumber yard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -335,19 +375,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "stone pit",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -364,19 +408,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "stone pit",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -393,19 +441,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "loom",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -422,19 +474,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "loom",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -451,19 +507,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "press",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -480,19 +540,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "press",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -509,19 +573,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "glassworks",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -538,19 +606,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "glassworks",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -567,19 +639,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "barracks",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 1,
@@ -596,19 +672,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "barracks",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 1,
@@ -625,19 +705,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "guard tower",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 1,
@@ -654,19 +738,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "guard tower",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 1,
@@ -683,19 +771,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "stockade",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -712,19 +804,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "stockade",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -741,19 +837,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "tavern",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -770,19 +870,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "tavern",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -799,19 +903,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "tavern",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -828,19 +936,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "east trading post",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -882,19 +994,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "east trading post",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -936,19 +1052,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "west trading post",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -990,19 +1110,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "west trading post",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1044,19 +1168,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "marketplace",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1091,19 +1219,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "marketplace",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1138,19 +1270,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "scriptorium",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "papel": 1,
@@ -1169,19 +1305,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "scriptorium",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "papel": 1,
@@ -1200,19 +1340,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "apothecary",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "tela": 1,
@@ -1231,19 +1375,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "apothecary",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "tela": 1,
@@ -1262,19 +1410,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "workshop",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "vidrio": 1,
@@ -1293,19 +1445,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "workshop",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "vidrio": 1,
@@ -1324,19 +1480,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "altar",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1354,19 +1514,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "altar",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1384,19 +1548,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "well",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1414,19 +1582,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "well",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1444,19 +1616,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "theater",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1474,19 +1650,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "theater",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1504,19 +1684,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "baths",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "pedra": 1,
@@ -1535,19 +1719,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "baths",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "pedra": 1,
@@ -1566,19 +1754,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 1,
+        "era": {
+            "1": 1,
+            "2": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "sawmill",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1596,19 +1788,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "sawmill",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1626,19 +1822,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "quarry",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1656,19 +1856,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "quarry",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1686,19 +1890,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "brickyard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1716,19 +1924,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "brickyard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1746,19 +1958,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "foundry",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1776,19 +1992,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "foundry",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 1,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 1,
+            "ciencia": 0
         },
         "coste": {
             "oro": 1,
@@ -1806,19 +2026,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "loom",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1835,19 +2059,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "loom",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1864,19 +2092,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "press",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1893,19 +2125,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "press",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1922,19 +2158,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "glassworks",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1951,19 +2191,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "glassworks",
         "tipo": {
-            "bienes manufacturados": 1,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 1,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -1980,19 +2224,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "caravansery",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -2021,19 +2269,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "caravansery",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -2062,19 +2314,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "caravansery",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -2103,19 +2359,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "forum",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -2141,19 +2401,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "forum",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -2179,19 +2443,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "forum",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -2217,19 +2485,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "bazar",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -2246,19 +2518,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "bazar",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -2275,19 +2551,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "vineyard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -2304,19 +2584,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "vineyard",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 0,
@@ -2333,19 +2617,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "training ground",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -2363,19 +2651,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "training ground",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -2393,19 +2685,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "training ground",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -2423,19 +2719,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "walls",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 3,
@@ -2453,19 +2753,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "walls",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 3,
@@ -2483,19 +2787,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "archery range",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -2512,19 +2820,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "archery range",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -2541,19 +2853,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "stables",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -2570,19 +2886,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "stables",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -2599,19 +2919,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "school",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "madera": 1,
@@ -2630,19 +2954,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "school",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "madera": 1,
@@ -2661,19 +2989,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "library",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "piedra": 2,
@@ -2692,19 +3024,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "library",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "piedra": 2,
@@ -2723,19 +3059,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "laboratory",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "arcilla": 2,
@@ -2754,19 +3094,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "laboratory",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "arcilla": 2,
@@ -2785,19 +3129,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "dispensary",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "mineral": 2,
@@ -2816,19 +3164,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "dispensary",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "mineral": 2,
@@ -2847,19 +3199,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "aqueduct",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 3,
@@ -2876,19 +3232,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "aqueduct",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 3,
@@ -2905,19 +3265,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "courthouse",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -2934,19 +3298,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "courthouse",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -2963,19 +3331,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "statue",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 2,
@@ -2992,19 +3364,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "statue",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 2,
@@ -3021,19 +3397,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "temple",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 1,
@@ -3045,19 +3425,23 @@
             "tela": 0
         },
         "numero_jugadores": 3,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "temple",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 1,
@@ -3074,19 +3458,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 2,
+        "era": {
+            "2": 1,
+            "1": 0,
+            "3": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "town hall",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 2,
@@ -3103,19 +3491,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "town hall",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 2,
@@ -3132,19 +3524,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "palace",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -3161,19 +3557,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "palace",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -3190,19 +3590,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "pantheon",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -3219,19 +3623,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "pantheon",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -3248,19 +3656,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "senate",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -3278,19 +3690,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "senate",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 2,
@@ -3308,19 +3724,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "gardens",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -3337,19 +3757,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "gardens",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 1,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -3366,19 +3790,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "siege workshop",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -3395,19 +3823,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "siege workshop",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -3424,19 +3856,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "circus",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 1,
@@ -3453,19 +3889,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "circus",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 1,
@@ -3482,19 +3922,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "fortifications",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 3,
@@ -3511,19 +3955,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "fortifications",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 3,
@@ -3540,19 +3988,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "castrum",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -3569,19 +4021,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "castrum",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -3598,19 +4054,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "arsenal",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 1,
@@ -3627,19 +4087,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "arsenal",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 1,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 1,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 1,
@@ -3656,19 +4120,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "observatory",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "mineral": 2,
@@ -3685,19 +4153,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "observatory",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "mineral": 2,
@@ -3714,19 +4186,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "study",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "madera": 1,
@@ -3743,19 +4219,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "study",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "madera": 1,
@@ -3772,19 +4252,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "university",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "madera": 2,
@@ -3801,19 +4285,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "university",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "madera": 2,
@@ -3830,19 +4318,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "lodge",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "arcilla": 2,
@@ -3859,19 +4351,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "lodge",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "arcilla": 2,
@@ -3888,19 +4384,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "academy",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "piedra": 3,
@@ -3917,19 +4417,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "academy",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 1,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 1
         },
         "coste": {
             "piedra": 3,
@@ -3946,19 +4450,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "haven",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -3976,19 +4484,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "haven",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "madera": 1,
@@ -4006,19 +4518,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "lighthouse",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -4036,19 +4552,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "lighthouse",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -4066,19 +4586,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "arena",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 2,
@@ -4096,19 +4620,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "arena",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 2,
@@ -4126,19 +4654,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "ludus",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -4156,19 +4688,23 @@
             }
         },
         "numero_jugadores": 5,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "ludus",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -4186,19 +4722,23 @@
             }
         },
         "numero_jugadores": 7,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "chamber of comerce",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -4216,19 +4756,23 @@
             }
         },
         "numero_jugadores": 4,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "chamber of comerce",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 1,
-            "ciencia": 0,
-            "guild": 0
+            "bienes manufacturados": 0,
+            "guild": 0,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -4246,19 +4790,23 @@
             }
         },
         "numero_jugadores": 6,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "spies guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "arcilla": 2,
@@ -4275,19 +4823,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "decorators guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 2,
@@ -4304,19 +4856,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "traders guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "vidrio": 1,
@@ -4333,19 +4889,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "craftsmen guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 2,
@@ -4362,19 +4922,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "workers guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 2,
@@ -4391,19 +4955,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "magistrates guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "piedra": 1,
@@ -4420,19 +4988,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "scientist guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "mineral": 2,
@@ -4449,19 +5021,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "shipowners guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "vidrio": 1,
@@ -4478,19 +5054,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "builders guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "vidrio": 1,
@@ -4507,19 +5087,23 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     },
     {
         "nombre": "philosophers guild",
         "tipo": {
-            "bienes manufacturados": 0,
-            "estructura militar": 0,
-            "materia prima": 0,
             "estructura civil": 0,
+            "estructura militar": 0,
             "estructura comercial": 0,
-            "ciencia": 0,
-            "guild": 1
+            "bienes manufacturados": 0,
+            "guild": 1,
+            "materia prima": 0,
+            "ciencia": 0
         },
         "coste": {
             "tela": 1,
@@ -4536,7 +5120,11 @@
             }
         },
         "numero_jugadores": 3,
-        "era": 3,
+        "era": {
+            "3": 1,
+            "1": 0,
+            "2": 0
+        },
         "cantidad": 1
     }
 ]

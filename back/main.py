@@ -26,8 +26,8 @@ def card():
         'type': next((k for k, v in item.get('tipo', {}).items() if v > 0), 'default_tipo'),  # Get the key with value > 0
         'numPlayers': item.get('numero_jugadores', 10),
         'benefit': item.get('beneficio', {}),
-        'cost': next((k for k, v in item.get('coste', {}).items() if v > 0), 'none'),  # Get the key with value > 0
-        'age': item.get('era', 1),
+        'cost': [(k, v) for k, v in item.get('coste', {}).items() if v > 0],
+        'age': item.get('era'),
         'quantity': item.get('cantidad', 1)
     } for item in data]
     
