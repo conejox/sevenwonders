@@ -117,6 +117,7 @@ function App() {
     }
   };
 
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -164,24 +165,43 @@ function App() {
               <form onSubmit={handleSubmit}className="form-group">
                   <div className="form-agecost">
                     <label><strong>Age:</strong>
-                    <label className='age1checkbox'>1
+                    <label >
+                      <img 
+                      src='/images/I.png' 
+                      alt='age1' className={`ageopalence${age1}`} 
+                      onClick={() => handleAge1Change(!(e.target.checked ? 1 : 0))}
+                      id='age1'/>{}
+                      
                     <input 
                           type="checkbox"
+                          className='agecheckbox' 
+                          id='cb1'
                           checked={age1 === 1}
                           onChange={(e) => handleAge1Change(e.target.checked ? 1 : 0)}
                           
+                          
                         />
                     </label> 
-                    <label>2
+                    <label>
+                      <img src='/images/II.png'
+                       alt='age2' className={`ageopalence${age2}`} 
+                        id='age2'/>
+                   
                     <input 
-                          type="checkbox"
+                          type="checkbox"className='agecheckbox' id='cb2'
                           checked={age2 === 1}
                           onChange={(e) => handleAge2Change(e.target.checked ? 1 : 0)}
                         />
                         </label>
-                    <label>3
+                    <label>
+                      <img src='/images/III.png'
+                       alt='age3' 
+                       className={`ageopalence${age3}`}  
+                       id='age3'/>
                     <input 
                           type="checkbox"
+                          className='agecheckbox' 
+                          id='cb3'
                           checked={age3 === 1}
                           onChange={(e) => handleAge3Change(e.target.checked ? 1 : 0)}
                         />

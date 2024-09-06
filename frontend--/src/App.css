@@ -162,3 +162,27 @@ body {
     height: auto;
     
 }
+.age1checkbox {
+    background-image: url('/public/images/age1.png');
+    background-size:cover;
+   
+}
+.agelogo {
+    width: 60px; 
+    height: auto; 
+    margin: 10px; 
+}
+.ageopalence1 {
+    width: 60px; 
+    height: auto; 
+    margin: 10px; 
+}
+.ageopalence0 {
+    width: 60px; 
+    height: auto; 
+    margin: 10px;
+    opacity: 0.4;
+}
+.agecheckbox{
+    display: none;
+}
