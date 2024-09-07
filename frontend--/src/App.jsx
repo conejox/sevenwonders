@@ -239,20 +239,47 @@ function App() {
                       <span>{ore}</span>
                     </label>
                       
-                    <label>Gold:
-                    <input type="checkbox" 
+                    <label>
+                      <img src='/images/gold.png'
+                      className={`costicon${Gold}`}
+                      onClick={() => handleGoldChange(!(e.target.checked ? 1 : 0))} 
+                      alt='Gold' />
+                    <input 
+                    type="checkbox"
+                    className='costcheckbox' 
                     checked={Gold === 1}
                     onChange={(e) => handleGoldChange(e.target.checked ? 1 : 0)} />
                     </label>
-                    <label>wool:
-                      <input type="checkbox" checked={wool === 1} onChange={(e) => handlewoolChange(e.target.checked ? 1 : 0)} />
+                    <label>
+                      <img src='/images/wool.png'
+                      className={`costicon${wool}`}
+                      onClick={() => handlewoolChange(!(e.target.checked ? 1 : 0))}
+                      alt='wool' />
+                      <input 
+                      type="checkbox"
+                      className='costcheckbox' 
+                      checked={wool === 1} onChange={(e) => handlewoolChange(e.target.checked ? 1 : 0)} />
                     </label>
-                    <label>Glass:
-                      <input type="checkbox" checked={glass === 1} onChange={(e) => handleglassChange(e.target.checked ? 1 : 0)} />
+                    <label>
+                      <img src='/images/glass.png'
+                      className={`costicon${glass}`}
+                      onClick={() => handleglassChange(!(e.target.checked ? 1 : 0))}
+                      alt='glass' />
+                      <input 
+                      type="checkbox"
+                      className='costcheckbox' 
+                      checked={glass === 1} onChange={(e) => handleglassChange(e.target.checked ? 1 : 0)} />
                     </label>
-                    <label> paper:
+                    <label>
+                      <img src='/images/paper.png'
+                      className={`costicon${paper}`}
+                      onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
+                      alt='paper' />
                     
-                      <input type="checkbox" checked={paper === 1} onChange={(e) => handlepaperChange(e.target.checked ? 1 : 0)} />
+                      <input 
+                      type="checkbox"
+                      className='costcheckbox' 
+                      checked={paper === 1} onChange={(e) => handlepaperChange(e.target.checked ? 1 : 0)} />
                     </label>
                     </label>{/* class cost */}
                   </div>{/* class agecost */}
