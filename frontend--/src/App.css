@@ -186,3 +186,15 @@ body {
 .agecheckbox{
     display: none;
 }
+.costicon1 {
+    width: 35px; 
+    height: auto;
+}
+.costicon0 {
+    width: 35px; 
+    height: auto;
+    opacity: 0.4;
+}
+.costcheckbox{
+    display: none;
+}
