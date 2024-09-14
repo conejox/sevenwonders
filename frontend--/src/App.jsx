@@ -85,17 +85,17 @@ function App() {
   const handlepaperChange = (value) => {
     setpaper(value);
   };
-  const handlewoodChange = (e) => {
-    setwood(e.target.value);
+  const handlewoodChange = (value) => {
+    setwood(value);
   };
-  const handlestoneChange = (e) => {
-    setstone(e.target.value);
+  const handlestoneChange = (value) => {
+    setstone(value);
   };
-  const handleclayChange = (e) => {
-    setclay(e.target.value);
+  const handleclayChange = (value) => {
+    setclay(value);
   };
-  const handleoreChange = (e) => {
-    setore(e.target.value);
+  const handleoreChange = (value) => {
+    setore(value);
   };
   const getCardClass = (type) => {
     switch (type) {
@@ -167,25 +167,46 @@ function App() {
             </div>{/* logo container */}
             <div className='form-wonders'>
               <div className='ephesos' >
-                <div className='day'>
+                <div className='ephesos_day'>
                 <img src='/images/paper.png'
                       className={`costicon${paper}`}
                       onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
                       alt='paper' />
-                <strong>Ephesos(day)</strong><br />
-                <input type="checkbox" />I
-                <input type="checkbox" />II
-                <input type="checkbox" />III
+                
+                <div className='eph_stages'>
+                <div className='eph_01'>
+                <input type="checkbox" onClick={() => handleclayChange(2)}/>
+                </div>
+                <div className='eph_02'>
+                <input type="checkbox"onClick={() => handlewoodChange(2)} />
+                </div>
+                <div className='eph_03'>
+                <input type="checkbox" onClick={(e) => {
+                                  handleoreChange(2);
+                                  handleglassChange(e.target.checked ? 1 : 0);
+                                }} />
+                </div>
+                </div>{/*class eph_stages */}
                 </div>{/*class day */}
-                <div className='nigth'>
+                <div className='ephesos_nigth'>
                 <img src='/images/paper.png'
                       className={`costicon${paper}`}
                       onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
                       alt='paper' />
-                <strong>Ephesos(nigth)</strong><br />
-                <input type="checkbox" />I
-                <input type="checkbox" />II
-                <input type="checkbox" />III
+               <div className='eph_stages'>
+                <div className='eph_04'>
+                <input type="checkbox"onClick={() => handlestoneChange(2)} />
+                </div>
+                <div className='eph_05'>
+                <input type="checkbox"onClick={() => handlewoodChange(2) }/>
+                </div>
+                <div className='eph_06'>
+                <input type="checkbox"onClick={(e) => {
+                                  handleoreChange(2);
+                                  handlewoolChange(e.target.checked ? 1 : 0);
+                                }} />
+                </div>
+                </div>{/*class eph_stages */}
                 </div>{/*class nigth */}
               </div>{/*class ephesos */}
 
@@ -244,27 +265,27 @@ function App() {
                     <label className='cost'>
                     <label> wood:
                       <input type='range' min="0" max="4"
-                        value={wood} onChange={handlewoodChange}/>
+                        value={wood} onChange={(e) => handlewoodChange(Number(e.target.value))}/>
 
                       <span>{wood}</span> 
                       
                     </label>
                     <label>Stone:
                       <input type="range" min="0" max="4"
-                        value={stone} onChange={handlestoneChange}
+                        value={stone} onChange={(e) => handlestoneChange(Number(e.target.value))}
                       />
                       <span>{stone}</span>
                     </label>
 
                     <label>clay:
                       <input type="range" min="0" max="4"
-                        value={clay} onChange={handleclayChange}
+                        value={clay} onChange={(e) => handleclayChange(Number(e.target.value))}
                       />
                       <span>{clay}</span>
                     </label>
                     <label> ore:
                       <input type="range" min="0" max="4"
-                        value={ore} onChange={handleoreChange}
+                        value={ore} onChange={(e) => handleoreChange(Number(e.target.value))}
                       />
                       <span>{ore}</span>
                     </label>
