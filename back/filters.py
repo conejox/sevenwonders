@@ -62,6 +62,15 @@ def filter_by_glass(item, glass):
 def filter_by_paper(item, paper):
     return item.get('coste', {}).get('papel', 0) <= paper
 
+def filter_zero_cost(item, zero):
+    if zero == 1:
+        return True  # Do nothing, include the item
+    else:
+        # Check if any value in 'coste' is greater than 0
+        return any(value > 0 for value in item.get('coste', {}).values())
+        
+    
+
 def filter_cards(data, request_json):
     num_players = int(request_json['numPlayers'])
     age1 = int(request_json['age1'])
@@ -82,6 +91,7 @@ def filter_cards(data, request_json):
     wool = int(request_json['wool'])
     glass = int(request_json['glass'])
     paper = int(request_json['paper'])
+    zero = int(request_json['zero'])
 
     filtered_cards = [
         {
@@ -112,6 +122,7 @@ def filter_cards(data, request_json):
            filter_by_gold(item, gold) and
            filter_by_wool(item, wool) and
            filter_by_glass(item, glass) and
-           filter_by_paper(item, paper)
+           filter_by_paper(item, paper) and
+           filter_zero_cost(item,zero)
     ]
     return filtered_cards

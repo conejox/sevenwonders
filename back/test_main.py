@@ -17,7 +17,15 @@ class CardEndpointTestCase(unittest.TestCase):
                 'tipo': 'Type1',
                 'numero_jugadores': 4,
                 'beneficio': {'points': 10},
-                'coste': 5,
+                'coste':{
+                            "piedra": 0,
+                            "mineral": 0,
+                            "madera": 0,
+                            "arcilla": 0,
+                            "vidrio": 0,
+                            "papel": 0,
+                            "tela": 0
+                        } ,
                 'era': 2,
                 'cantidad': 3
             },
@@ -26,7 +34,15 @@ class CardEndpointTestCase(unittest.TestCase):
                 'tipo': 'Type2',
                 'numero_jugadores': 2,
                 'beneficio': {'points': 5},
-                'coste': 3,
+                'coste': {
+                            "piedra": 1,
+                            "mineral": 0,
+                            "madera": 0,
+                            "arcilla": 0,
+                            "vidrio": 0,
+                            "papel": 0,
+                            "tela": 0
+                        },
                 'era': 1,
                 'cantidad': 1
             }
