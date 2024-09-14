@@ -23,6 +23,7 @@ function App() {
   const [wool, setwool] = useState(0);
   const [glass, setglass] = useState(0);
   const [paper, setpaper] = useState(0);
+  const [zero, setZero] = useState(1);
 
   const fetchData = async () => {
     try {
@@ -117,6 +118,9 @@ function App() {
     }
   };
 
+  const handleZeroChange = (value) => {
+    setZero(value);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -141,6 +145,7 @@ function App() {
         stone,
         clay,
         ore,
+        zero,
       });
       setCards(response.data);
     } catch (error) {
@@ -160,6 +165,31 @@ function App() {
               <img src='/images/sev-logo-gold-16128779869FV5n-large.png'className='logo' alt='logo 7 wonders' />
               <h1 className='card-filter'>Card Filter</h1>
             </div>{/* logo container */}
+            <div className='form-wonders'>
+              <div className='ephesos' >
+                <div className='day'>
+                <img src='/images/paper.png'
+                      className={`costicon${paper}`}
+                      onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
+                      alt='paper' />
+                <strong>Ephesos(day)</strong><br />
+                <input type="checkbox" />I
+                <input type="checkbox" />II
+                <input type="checkbox" />III
+                </div>{/*class day */}
+                <div className='nigth'>
+                <img src='/images/paper.png'
+                      className={`costicon${paper}`}
+                      onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
+                      alt='paper' />
+                <strong>Ephesos(nigth)</strong><br />
+                <input type="checkbox" />I
+                <input type="checkbox" />II
+                <input type="checkbox" />III
+                </div>{/*class nigth */}
+              </div>{/*class ephesos */}
+
+            </div>{/*class form-wonders */}
             
 
               <form onSubmit={handleSubmit}className="form-group">
@@ -238,7 +268,7 @@ function App() {
                       />
                       <span>{ore}</span>
                     </label>
-                      
+                    <div className='costmanf'> 
                     <label>
                       <img src='/images/gold.png'
                       className={`costicon${Gold}`}
@@ -281,6 +311,20 @@ function App() {
                       className='costcheckbox' 
                       checked={paper === 1} onChange={(e) => handlepaperChange(e.target.checked ? 1 : 0)} />
                     </label>
+                    <label>
+                      <img src='/images/zero.png'
+                      className={`costicon${zero}`}
+                      onClick={() => handleZeroChange(!(e.target.checked ? 1 : 0))}
+                      alt='zero' />
+                    
+                      <input 
+                      type="checkbox"
+                      className='costcheckbox' 
+                      checked={zero === 1} onChange={(e) => handleZeroChange(e.target.checked ? 1 : 0)} />
+                    </label>
+
+
+                    </div>{/* class costmanf */}
                     </label>{/* class cost */}
                   </div>{/* class agecost */}
 
@@ -351,6 +395,7 @@ function App() {
                       </div>{/* class type */}
                   
                   </div>{/*class form-playertype */}
+                
                   <div className='submitbutton'>
                       <button type="submit">Submit</button>
                   </div>
@@ -360,7 +405,7 @@ function App() {
           </div>{/*class toolbox */}
           
           <div className='cards-container'>
-            <h2>Cards</h2>
+            
             <div className='cards-display'>
               {cards.map((card, index) => (
                 <div className={getCardClass(card.type)} key={index}>
