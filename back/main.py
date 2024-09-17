@@ -28,7 +28,10 @@ def card():
         'benefit': item.get('beneficio', {}),
         'cost': [(k, v) for k, v in item.get('coste', {}).items() if v > 0],
         'age':next(k for k, v in item.get('era', {}).items() if v > 0),
-        'quantity': item.get('cantidad', 1)
+        'quantity': item.get('cantidad', 1),
+        'image': item.get('image', 1)
+        
+
     } for item in data]
     
     return jsonify(card)

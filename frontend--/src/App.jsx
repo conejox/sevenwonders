@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
+
 function App() {
   const [cards, setCards] = useState([]);
   const [numPlayers, setNumPlayers] = useState(3);
@@ -189,10 +190,10 @@ function App() {
                 </div>{/*class eph_stages */}
                 </div>{/*class day */}
                 <div className='ephesos_nigth'>
-                <img src='/images/paper.png'
-                      className={`costicon${paper}`}
-                      onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
-                      alt='paper' />
+                  <img src='/images/paper.png'
+                        className={`costicon${paper}`}
+                        onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
+                        alt='paper' />
                <div className='eph_stages'>
                 <div className='eph_04'>
                 <input type="checkbox"onClick={() => handlestoneChange(2)} />
@@ -429,16 +430,11 @@ function App() {
             
             <div className='cards-display'>
               {cards.map((card, index) => (
+                
                 <div className={getCardClass(card.type)} key={index}>
-                  <strong>{card.name}</strong>
-                  <br />
+                  <p className='card-name'>{card.name}</p>
                   
-                  <br />
-                  - Age:{JSON.stringify(card.age)}
-                  <br />
-                  - Type: {JSON.stringify(card.type)}
-                  <br />
-                  - Cost: {JSON.stringify(card.cost)}           
+                  <img src={card.image} alt={card.name} />          
                 </div>
               ))}
             </div>{/* class="cards-display" */}

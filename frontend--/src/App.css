@@ -164,10 +164,17 @@
 body {
     overflow-x: hidden;
 }
+.card-name {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 .cards-display {
     display:grid;
     border: 2px solid #282323;
-    grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(129px, 1fr));
     grid-gap: 10px;
 
 }
@@ -187,7 +194,7 @@ body {
 }
 
 .card-type-estructura-comercial {
-    border: 5px solid yellow;
+    border: 5px solid rgb(215, 191, 10);
 }
 
 .card-type-ciencia {
@@ -201,7 +208,7 @@ body {
 
 .card {
     
-    padding: 10px; /* Add some padding inside each card */
+    padding: 0px; /* Add some padding inside each card */
     margin: 10px; /* Add some margin between cards */
     border-radius: 5px; /* Optional: Add rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */

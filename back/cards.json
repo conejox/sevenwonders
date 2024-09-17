@@ -34,7 +34,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/forest_cave.jpg"
     },
     {
         "nombre": "clay pit",
@@ -71,7 +72,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/clay_pit.jpg"
     },
     {
         "nombre": "timber yard",
@@ -108,7 +110,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/timber_yard.jpg"
     },
     {
         "nombre": "excavation",
@@ -145,7 +148,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/excavation.jpg"
     },
     {
         "nombre": "mine",
@@ -182,7 +186,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/mine.jpg"
     },
     {
         "nombre": "ore vein",
@@ -215,7 +220,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/ore_vein.jpg"
     },
     {
         "nombre": "ore vein",
@@ -248,7 +254,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/ore_vein.jpg"
     },
     {
         "nombre": "clay pool",
@@ -281,7 +288,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/clay_pool.jpg"
     },
     {
         "nombre": "clay pool",
@@ -314,7 +322,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/clay_pool.jpg"
     },
     {
         "nombre": "lumber yard",
@@ -347,7 +356,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/lumber_yard.jpg"
     },
     {
         "nombre": "lumber yard",
@@ -380,7 +390,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/lumber_yard.jpg"
     },
     {
         "nombre": "stone pit",
@@ -413,7 +424,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/stone_pit.jpg"
     },
     {
         "nombre": "stone pit",
@@ -446,7 +458,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/stone_pit.jpg"
     },
     {
         "nombre": "loom",
@@ -479,7 +492,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/loom.jpg"
     },
     {
         "nombre": "loom",
@@ -512,7 +526,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/loom.jpg"
     },
     {
         "nombre": "press",
@@ -545,7 +560,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/press.jpg"
     },
     {
         "nombre": "press",
@@ -578,7 +594,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/press.jpg"
     },
     {
         "nombre": "glassworks",
@@ -611,7 +628,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/glassworks.jpg"
     },
     {
         "nombre": "glassworks",
@@ -644,7 +662,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/glassworks.jpg"
     },
     {
         "nombre": "barracks",
@@ -677,7 +696,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/barracks.jpg"
     },
     {
         "nombre": "barracks",
@@ -710,7 +730,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/barracks.jpg"
     },
     {
         "nombre": "guard tower",
@@ -743,7 +764,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/guard_tower.jpg"
     },
     {
         "nombre": "guard tower",
@@ -776,7 +798,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/guard_tower.jpg"
     },
     {
         "nombre": "stockade",
@@ -809,7 +832,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/stockade.jpg"
     },
     {
         "nombre": "stockade",
@@ -842,7 +866,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/stockade.jpg"
     },
     {
         "nombre": "tavern",
@@ -875,7 +900,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/tavern.jpg"
     },
     {
         "nombre": "tavern",
@@ -908,7 +934,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/tavern.jpg"
     },
     {
         "nombre": "tavern",
@@ -941,7 +968,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/tavern.jpg"
     },
     {
         "nombre": "east trading post",
@@ -999,7 +1027,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/east_trading_post.jpg"
     },
     {
         "nombre": "east trading post",
@@ -1057,7 +1086,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/east_trading_post.jpg"
     },
     {
         "nombre": "west trading post",
@@ -1115,7 +1145,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/west_trading_post.jpg"
     },
     {
         "nombre": "west trading post",
@@ -1173,7 +1204,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/west_trading_post.jpg"
     },
     {
         "nombre": "marketplace",
@@ -1224,7 +1256,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/marketplace.jpg"
     },
     {
         "nombre": "marketplace",
@@ -1275,7 +1308,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/marketplace.jpg"
     },
     {
         "nombre": "scriptorium",
@@ -1310,7 +1344,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/scriptorium.jpg"
     },
     {
         "nombre": "scriptorium",
@@ -1345,7 +1380,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/scriptorium.jpg"
     },
     {
         "nombre": "apothecary",
@@ -1380,7 +1416,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/apothecary.jpg"
     },
     {
         "nombre": "apothecary",
@@ -1415,7 +1452,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/apothecary.jpg"
     },
     {
         "nombre": "workshop",
@@ -1450,7 +1488,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/workshop.jpg"
     },
     {
         "nombre": "workshop",
@@ -1485,7 +1524,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/workshop.jpg"
     },
     {
         "nombre": "altar",
@@ -1519,7 +1559,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/altar.jpg"
     },
     {
         "nombre": "altar",
@@ -1553,7 +1594,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/altar.jpg"
     },
     {
         "nombre": "well",
@@ -1587,7 +1629,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/well.jpg"
     },
     {
         "nombre": "well",
@@ -1621,7 +1664,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/well.jpg"
     },
     {
         "nombre": "theater",
@@ -1655,7 +1699,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/theater.jpg"
     },
     {
         "nombre": "theater",
@@ -1689,7 +1734,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/theater.jpg"
     },
     {
         "nombre": "baths",
@@ -1703,7 +1749,8 @@
             "ciencia": 0
         },
         "coste": {
-            "piedra": 1,
+            "pedra": 1,
+            "piedra": 0,
             "mineral": 0,
             "madera": 0,
             "arcilla": 0,
@@ -1723,7 +1770,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/baths.jpg"
     },
     {
         "nombre": "baths",
@@ -1737,7 +1785,8 @@
             "ciencia": 0
         },
         "coste": {
-            "piedra": 1,
+            "pedra": 1,
+            "piedra": 0,
             "mineral": 0,
             "madera": 0,
             "arcilla": 0,
@@ -1757,7 +1806,8 @@
             "2": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/baths.jpg"
     },
     {
         "nombre": "sawmill",
@@ -1791,7 +1841,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/sawmill.jpg"
     },
     {
         "nombre": "sawmill",
@@ -1825,7 +1876,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/sawmill.jpg"
     },
     {
         "nombre": "quarry",
@@ -1859,7 +1911,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/quarry.jpg"
     },
     {
         "nombre": "quarry",
@@ -1893,7 +1946,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/quarry.jpg"
     },
     {
         "nombre": "brickyard",
@@ -1927,7 +1981,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/brickyard.jpg"
     },
     {
         "nombre": "brickyard",
@@ -1961,7 +2016,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/brickyard.jpg"
     },
     {
         "nombre": "foundry",
@@ -1995,7 +2051,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/foundry.jpg"
     },
     {
         "nombre": "foundry",
@@ -2029,7 +2086,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/foundry.jpg"
     },
     {
         "nombre": "loom",
@@ -2062,7 +2120,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/loom.jpg"
     },
     {
         "nombre": "loom",
@@ -2095,7 +2154,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/loom.jpg"
     },
     {
         "nombre": "press",
@@ -2128,7 +2188,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/press.jpg"
     },
     {
         "nombre": "press",
@@ -2161,7 +2222,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/press.jpg"
     },
     {
         "nombre": "glassworks",
@@ -2194,7 +2256,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/glassworks.jpg"
     },
     {
         "nombre": "glassworks",
@@ -2227,7 +2290,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/glassworks.jpg"
     },
     {
         "nombre": "caravansery",
@@ -2272,7 +2336,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/caravansery.jpg"
     },
     {
         "nombre": "caravansery",
@@ -2317,7 +2382,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/caravansery.jpg"
     },
     {
         "nombre": "caravansery",
@@ -2362,7 +2428,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/caravansery.jpg"
     },
     {
         "nombre": "forum",
@@ -2404,7 +2471,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/forum.jpg"
     },
     {
         "nombre": "forum",
@@ -2446,7 +2514,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/forum.jpg"
     },
     {
         "nombre": "forum",
@@ -2488,7 +2557,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/forum.jpg"
     },
     {
         "nombre": "bazar",
@@ -2521,7 +2591,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/bazar.jpg"
     },
     {
         "nombre": "bazar",
@@ -2554,7 +2625,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/bazar.jpg"
     },
     {
         "nombre": "vineyard",
@@ -2587,7 +2659,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/vineyard.jpg"
     },
     {
         "nombre": "vineyard",
@@ -2620,7 +2693,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/vineyard.jpg"
     },
     {
         "nombre": "training ground",
@@ -2654,7 +2728,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/training_ground.jpg"
     },
     {
         "nombre": "training ground",
@@ -2688,7 +2763,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/training_ground.jpg"
     },
     {
         "nombre": "training ground",
@@ -2722,7 +2798,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/training_ground.jpg"
     },
     {
         "nombre": "walls",
@@ -2756,7 +2833,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/walls.jpg"
     },
     {
         "nombre": "walls",
@@ -2790,7 +2868,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/walls.jpg"
     },
     {
         "nombre": "archery range",
@@ -2823,7 +2902,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/archery_range.jpg"
     },
     {
         "nombre": "archery range",
@@ -2856,7 +2936,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/archery_range.jpg"
     },
     {
         "nombre": "stables",
@@ -2889,7 +2970,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/stables.jpg"
     },
     {
         "nombre": "stables",
@@ -2922,7 +3004,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/stables.jpg"
     },
     {
         "nombre": "school",
@@ -2957,7 +3040,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/school.jpg"
     },
     {
         "nombre": "school",
@@ -2992,7 +3076,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/school.jpg"
     },
     {
         "nombre": "library",
@@ -3027,7 +3112,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/library.jpg"
     },
     {
         "nombre": "library",
@@ -3062,7 +3148,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/library.jpg"
     },
     {
         "nombre": "laboratory",
@@ -3097,7 +3184,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/laboratory.jpg"
     },
     {
         "nombre": "laboratory",
@@ -3132,7 +3220,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/laboratory.jpg"
     },
     {
         "nombre": "dispensary",
@@ -3167,7 +3256,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/dispensary.jpg"
     },
     {
         "nombre": "dispensary",
@@ -3202,7 +3292,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/dispensary.jpg"
     },
     {
         "nombre": "aqueduct",
@@ -3235,7 +3326,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/aqueduct.jpg"
     },
     {
         "nombre": "aqueduct",
@@ -3268,7 +3360,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/aqueduct.jpg"
     },
     {
         "nombre": "courthouse",
@@ -3301,7 +3394,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/courthouse.jpg"
     },
     {
         "nombre": "courthouse",
@@ -3334,7 +3428,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/courthouse.jpg"
     },
     {
         "nombre": "statue",
@@ -3367,7 +3462,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/statue.jpg"
     },
     {
         "nombre": "statue",
@@ -3400,7 +3496,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/statue.jpg"
     },
     {
         "nombre": "temple",
@@ -3428,7 +3525,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/temple.jpg"
     },
     {
         "nombre": "temple",
@@ -3461,7 +3559,8 @@
             "1": 0,
             "3": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/temple.jpg"
     },
     {
         "nombre": "town hall",
@@ -3494,7 +3593,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/town_hall.jpg"
     },
     {
         "nombre": "town hall",
@@ -3527,7 +3627,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/town_hall.jpg"
     },
     {
         "nombre": "palace",
@@ -3560,7 +3661,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/palace.jpg"
     },
     {
         "nombre": "palace",
@@ -3593,7 +3695,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/palace.jpg"
     },
     {
         "nombre": "pantheon",
@@ -3626,7 +3729,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/pantheon.jpg"
     },
     {
         "nombre": "pantheon",
@@ -3659,7 +3763,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/pantheon.jpg"
     },
     {
         "nombre": "senate",
@@ -3693,7 +3798,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/senate.jpg"
     },
     {
         "nombre": "senate",
@@ -3727,7 +3833,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/senate.jpg"
     },
     {
         "nombre": "gardens",
@@ -3760,7 +3867,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/gardens.jpg"
     },
     {
         "nombre": "gardens",
@@ -3793,7 +3901,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/gardens.jpg"
     },
     {
         "nombre": "siege workshop",
@@ -3826,7 +3935,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/siege_workshop.jpg"
     },
     {
         "nombre": "siege workshop",
@@ -3859,7 +3969,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/siege_workshop.jpg"
     },
     {
         "nombre": "circus",
@@ -3892,7 +4003,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/circus.jpg"
     },
     {
         "nombre": "circus",
@@ -3925,7 +4037,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/circus.jpg"
     },
     {
         "nombre": "fortifications",
@@ -3958,7 +4071,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/fortifications.jpg"
     },
     {
         "nombre": "fortifications",
@@ -3991,7 +4105,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/fortifications.jpg"
     },
     {
         "nombre": "castrum",
@@ -4024,7 +4139,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/castrum.jpg"
     },
     {
         "nombre": "castrum",
@@ -4057,7 +4173,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/castrum.jpg"
     },
     {
         "nombre": "arsenal",
@@ -4090,7 +4207,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/arsenal.jpg"
     },
     {
         "nombre": "arsenal",
@@ -4123,7 +4241,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/arsenal.jpg"
     },
     {
         "nombre": "observatory",
@@ -4156,7 +4275,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/observatory.jpg"
     },
     {
         "nombre": "observatory",
@@ -4189,7 +4309,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/observatory.jpg"
     },
     {
         "nombre": "study",
@@ -4222,7 +4343,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/study.jpg"
     },
     {
         "nombre": "study",
@@ -4255,7 +4377,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/study.jpg"
     },
     {
         "nombre": "university",
@@ -4288,7 +4411,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/university.jpg"
     },
     {
         "nombre": "university",
@@ -4321,7 +4445,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/university.jpg"
     },
     {
         "nombre": "lodge",
@@ -4354,7 +4479,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/lodge.jpg"
     },
     {
         "nombre": "lodge",
@@ -4387,7 +4513,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/lodge.jpg"
     },
     {
         "nombre": "academy",
@@ -4420,7 +4547,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/academy.jpg"
     },
     {
         "nombre": "academy",
@@ -4453,7 +4581,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/academy.jpg"
     },
     {
         "nombre": "haven",
@@ -4487,7 +4616,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/haven.jpg"
     },
     {
         "nombre": "haven",
@@ -4521,7 +4651,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/haven.jpg"
     },
     {
         "nombre": "lighthouse",
@@ -4555,7 +4686,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/lighthouse.jpg"
     },
     {
         "nombre": "lighthouse",
@@ -4589,7 +4721,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/lighthouse.jpg"
     },
     {
         "nombre": "arena",
@@ -4623,7 +4756,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/arena.jpg"
     },
     {
         "nombre": "arena",
@@ -4657,7 +4791,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/arena.jpg"
     },
     {
         "nombre": "ludus",
@@ -4691,7 +4826,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/ludus.jpg"
     },
     {
         "nombre": "ludus",
@@ -4725,7 +4861,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/ludus.jpg"
     },
     {
         "nombre": "chamber of comerce",
@@ -4759,7 +4896,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/chamber_of_comerce.jpg"
     },
     {
         "nombre": "chamber of comerce",
@@ -4793,7 +4931,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/chamber_of_comerce.jpg"
     },
     {
         "nombre": "spies guild",
@@ -4826,7 +4965,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/spies_guild.jpg"
     },
     {
         "nombre": "decorators guild",
@@ -4859,7 +4999,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/decorators_guild.jpg"
     },
     {
         "nombre": "traders guild",
@@ -4892,7 +5033,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/traders_guild.jpg"
     },
     {
         "nombre": "craftsmen guild",
@@ -4925,7 +5067,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/craftsmen_guild.jpg"
     },
     {
         "nombre": "workers guild",
@@ -4958,7 +5101,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/workers_guild.jpg"
     },
     {
         "nombre": "magistrates guild",
@@ -4991,7 +5135,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/magistrates_guild.jpg"
     },
     {
         "nombre": "scientist guild",
@@ -5024,7 +5169,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/scientist_guild.jpg"
     },
     {
         "nombre": "shipowners guild",
@@ -5057,7 +5203,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/shipowners_guild.jpg"
     },
     {
         "nombre": "builders guild",
@@ -5090,7 +5237,8 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/builders_guild.jpg"
     },
     {
         "nombre": "philosophers guild",
@@ -5123,6 +5271,7 @@
             "1": 0,
             "2": 0
         },
-        "cantidad": 1
+        "cantidad": 1,
+        "image": "/images/philosophers_guild.jpg"
     }
 ]
