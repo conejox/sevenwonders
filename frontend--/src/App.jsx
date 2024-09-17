@@ -171,7 +171,7 @@ function App() {
                 <div className='ephesos_day'>
                 <img src='/images/paper.png'
                       className={`costicon${paper}`}
-                      onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
+                      onClick={() => handlepaperChange(paper === 1 ? 0 : 1)}
                       alt='paper' />
                 
                 <div className='eph_stages'>
