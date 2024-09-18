@@ -176,14 +176,14 @@ function App() {
                 
                 <div className='eph_stages'>
                 <div className='eph_01'>
-                <input type="checkbox" onClick={() => handleclayChange(2)}/>
+                <input type="checkbox" onClick={(e) => handleclayChange(e.target.checked ? 2 : 0)}/>
                 </div>
                 <div className='eph_02'>
-                <input type="checkbox"onClick={() => handlewoodChange(2)} />
+                <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} />
                 </div>
                 <div className='eph_03'>
                 <input type="checkbox" onClick={(e) => {
-                                  handleoreChange(2);
+                                  handleoreChange(e.target.checked ? 2 : 0);
                                   handleglassChange(e.target.checked ? 1 : 0);
                                 }} />
                 </div>
@@ -192,18 +192,18 @@ function App() {
                 <div className='ephesos_nigth'>
                   <img src='/images/paper.png'
                         className={`costicon${paper}`}
-                        onClick={() => handlepaperChange(!(e.target.checked ? 1 : 0))}
+                        onClick={() => handlepaperChange(paper === 1 ? 0 : 1)}
                         alt='paper' />
                <div className='eph_stages'>
                 <div className='eph_04'>
-                <input type="checkbox"onClick={() => handlestoneChange(2)} />
+                <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)} />
                 </div>
                 <div className='eph_05'>
-                <input type="checkbox"onClick={() => handlewoodChange(2) }/>
+                <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0) }/>
                 </div>
                 <div className='eph_06'>
                 <input type="checkbox"onClick={(e) => {
-                                  handleoreChange(2);
+                                  handleoreChange(e.target.checked ? 2 : 0);
                                   handlewoolChange(e.target.checked ? 1 : 0);
                                 }} />
                 </div>
