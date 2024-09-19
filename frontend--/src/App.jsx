@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
+import AccordionTab from './AccordionTab';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
   const [glass, setglass] = useState(0);
   const [paper, setpaper] = useState(0);
   const [zero, setZero] = useState(1);
+  
 
   const fetchData = async () => {
     try {
@@ -166,54 +168,58 @@ function App() {
               <img src='/images/sev-logo-gold-16128779869FV5n-large.png'className='logo' alt='logo 7 wonders' />
               <h1 className='card-filter'>Card Filter</h1>
             </div>{/* logo container */}
-            <div className='form-wonders'>
-              <div className='ephesos' >
-                <div className='ephesos_day'>
-                <img src='/images/paper.png'
-                      className={`costicon${paper}`}
-                      onClick={() => handlepaperChange(paper === 1 ? 0 : 1)}
-                      alt='paper' />
-                
-                <div className='eph_stages'>
-                <div className='eph_01'>
-                <input type="checkbox" onClick={(e) => handleclayChange(e.target.checked ? 2 : 0)}/>
-                </div>
-                <div className='eph_02'>
-                <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} />
-                </div>
-                <div className='eph_03'>
-                <input type="checkbox" onClick={(e) => {
-                                  handleoreChange(e.target.checked ? 2 : 0);
-                                  handleglassChange(e.target.checked ? 1 : 0);
-                                }} />
-                </div>
-                </div>{/*class eph_stages */}
-                </div>{/*class day */}
-                <div className='ephesos_nigth'>
+            <AccordionTab label="Form Wonders">
+              <div className='form-wonders'>
+                <div className='ephesos' >
+                  <div className='ephesos_day'>
                   <img src='/images/paper.png'
                         className={`costicon${paper}`}
                         onClick={() => handlepaperChange(paper === 1 ? 0 : 1)}
                         alt='paper' />
-               <div className='eph_stages'>
-                <div className='eph_04'>
-                <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)} />
-                </div>
-                <div className='eph_05'>
-                <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0) }/>
-                </div>
-                <div className='eph_06'>
-                <input type="checkbox"onClick={(e) => {
-                                  handleoreChange(e.target.checked ? 2 : 0);
-                                  handlewoolChange(e.target.checked ? 1 : 0);
-                                }} />
-                </div>
-                </div>{/*class eph_stages */}
-                </div>{/*class nigth */}
-              </div>{/*class ephesos */}
+                  
+                  <div className='eph_stages'>
+                  <div className='eph_01'>
+                  <input type="checkbox" onClick={(e) => handleclayChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='eph_02'>
+                  <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='eph_03'>
+                  <input type="checkbox" onClick={(e) => {
+                                    handleoreChange(e.target.checked ? 2 : 0);
+                                    handleglassChange(e.target.checked ? 1 : 0);
+                                  }} />
+                  </div>
+                  </div>{/*class eph_stages */}
+                  </div>{/*class day */}
+                  <div className='ephesos_nigth'>
+                    <img src='/images/paper.png'
+                          className={`costicon${paper}`}
+                          onClick={() => handlepaperChange(paper === 1 ? 0 : 1)}
+                          alt='paper' />
+                <div className='eph_stages'>
+                  <div className='eph_04'>
+                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='eph_05'>
+                  <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0) }/>
+                  </div>
+                  <div className='eph_06'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleoreChange(e.target.checked ? 2 : 0);
+                                    handlewoolChange(e.target.checked ? 1 : 0);
+                                  }} />
+                  </div>
+                  </div>{/*class eph_stages */}
+                  </div>{/*class nigth */}
+                </div>{/*class ephesos */}
 
-            </div>{/*class form-wonders */}
+              </div>{/*class form-wonders */}
+              </AccordionTab>
+              
             
-
+            
+              
               <form onSubmit={handleSubmit}className="form-group">
                   <div className="form-agecost">
                     <label><strong>Age:</strong>
@@ -422,6 +428,7 @@ function App() {
                       <button type="submit">Submit</button>
                   </div>
               </form>{/*class form-group */}
+              
             
           
           </div>{/*class toolbox */}
