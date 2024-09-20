@@ -213,6 +213,51 @@ function App() {
                   </div>{/*class eph_stages */}
                   </div>{/*class nigth */}
                 </div>{/*class ephesos */}
+                <div className='olimpia' >
+                  <div className='olimpia_day'>
+                  <img src='/images/clay.png'
+                        className={`costicon${clay}`}
+                        onClick={() => handleclayChange(e.target.checked ? 1 : 0)}
+                        alt='clay' />
+                  
+                  <div className='oli_stages'>
+                  <div className='oli_01'>
+                  <input type="checkbox" onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='oli_02'>
+                  <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='oli_03'>
+                  <input type="checkbox" onClick={(e) => {
+                                    handleclayChange(e.target.checked ? 3 : 0);
+                                    
+                                  }} />
+                  </div>
+                  </div>{/*class oli_stages */}
+                  </div>{/*class olimpia_day */}
+                  <div className='olimpia_nigth'>
+                    <img src='/images/clay.png'
+                          className={`costicon${clay}`}
+                          onClick={() => handlepaperChange(clay === 1 ? 0 : 1)}
+                          alt='clay' />
+                <div className='oli_stages'>
+                  <div className='oli_04'>
+                  <input type="checkbox"onClick={(e) => handleoreChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='oli_05'>
+                  <input type="checkbox"onClick={(e) => handleclayChange(e.target.checked ? 3 : 0) }/>
+                  </div>
+                  <div className='eph_06'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleglassChange(e.target.checked ? 1 : 0);
+                                    handlewoolChange(e.target.checked ? 1 : 0);
+                                    handlepaperChange(e.target.checked ? 1 : 0);
+
+                                  }} />
+                  </div>
+                  </div>{/*class oli_stages */}
+                  </div>{/*class nigth */}
+                </div>{/*class olimpia */}
 
               </div>{/*class form-wonders */}
               </AccordionTab>
