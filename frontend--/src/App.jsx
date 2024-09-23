@@ -258,6 +258,50 @@ function App() {
                   </div>{/*class oli_stages */}
                   </div>{/*class nigth */}
                 </div>{/*class olimpia */}
+                <div className='halikarnassos' >
+
+                  <div className='hal_day'>
+                  <img src='/images/stone.png'
+                        className={`costicon${wool}`}
+                        onClick={() => handlestoneChange(wool === 1 ? 0 : 1)}
+                        alt='wool' />
+
+                  <div className='hal_stages'>
+                  <div className='hal_01'>
+                  <input type="checkbox" onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='hal_02'>
+                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='hal_03'>
+                  <input type="checkbox" onClick={(e) => {
+                                    handleclayChange(e.target.checked ? 3 : 0);
+                                    handleoreChange(e.target.checked ? 1 : 0);
+                                  }} />
+                  </div>
+                  </div>{/*class hal_stages */}
+                  </div>{/*class hal_day */}
+                  <div className='hal_nigth'>
+                    <img src='/images/stone.png'
+                          className={`costicon${stone}`}
+                          onClick={() => handlestoneChange(stone === 1 ? 0 : 1)}
+                          alt='stone' />
+                <div className='hal_stages'>
+                  <div className='hal_04'>
+                  <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='hal_05'>
+                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0) }/>
+                  </div>
+                  <div className='hal_06'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleclayChange(e.target.checked ? 3 : 0);
+                                    handleoreChange(e.target.checked ? 1 : 0);
+                                  } }/>
+                  </div>
+                  </div>{/*class hal_stages */}
+                  </div>{/*class hal_nigth */}
+                </div>{/*class halikarnassos */}
 
               </div>{/*class form-wonders */}
               </AccordionTab>
