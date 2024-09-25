@@ -261,48 +261,99 @@ function App() {
                 <div className='halikarnassos' >
 
                   <div className='hal_day'>
-                  <img src='/images/stone.png'
+                  <img src='/images/wool.png'
                         className={`costicon${wool}`}
-                        onClick={() => handlestoneChange(wool === 1 ? 0 : 1)}
+                        onClick={() => handlewoolChange(wool === 1 ? 0 : 1)}
                         alt='wool' />
 
                   <div className='hal_stages'>
                   <div className='hal_01'>
-                  <input type="checkbox" onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)}/>
+                  <input type="checkbox" onClick={(e) => handleoreChange(e.target.checked ? 2 : 0)}/>
                   </div>
                   <div className='hal_02'>
-                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)} />
+                  <input type="checkbox"onClick={(e) => {
+                                    handleglassChange(e.target.checked ? 1 : 0);
+                                    handlepaperChange(e.target.checked ? 1 : 0);
+
+                                  }} />
                   </div>
                   <div className='hal_03'>
                   <input type="checkbox" onClick={(e) => {
-                                    handleclayChange(e.target.checked ? 3 : 0);
-                                    handleoreChange(e.target.checked ? 1 : 0);
+                                    handlestoneChange(e.target.checked ? 3 : 0);
                                   }} />
                   </div>
                   </div>{/*class hal_stages */}
                   </div>{/*class hal_day */}
                   <div className='hal_nigth'>
-                    <img src='/images/stone.png'
-                          className={`costicon${stone}`}
-                          onClick={() => handlestoneChange(stone === 1 ? 0 : 1)}
+                    <img src='/images/wool.png'
+                          className={`costicon${wool}`}
+                          onClick={() => handlewoolChange(wool === 1 ? 0 : 1)}
                           alt='stone' />
                 <div className='hal_stages'>
                   <div className='hal_04'>
-                  <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} />
+                  <input type="checkbox"onClick={(e) => handleclayChange(e.target.checked ? 2 : 0)} />
                   </div>
                   <div className='hal_05'>
-                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0) }/>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleglassChange(e.target.checked ? 1 : 0);
+                                    handlepaperChange(e.target.checked ? 1 : 0);
+
+                                  }} />
                   </div>
                   <div className='hal_06'>
                   <input type="checkbox"onClick={(e) => {
-                                    handleclayChange(e.target.checked ? 3 : 0);
-                                    handleoreChange(e.target.checked ? 1 : 0);
+                                    handlewoodChange(e.target.checked ? 3 : 0);
                                   } }/>
                   </div>
                   </div>{/*class hal_stages */}
                   </div>{/*class hal_nigth */}
                 </div>{/*class halikarnassos */}
 
+                <div className='alexandria' >
+                  <div className='ale_day'>
+                  <img src='/images/glass.png'
+                        className={`costicon${glass}`}
+                        onClick={() => handleglassChange(glass === 1 ? 0 : 1)}
+                        alt='glass' />
+
+                  <div className='ale_stages'>
+                  <div className='ale_01'>
+                  <input type="checkbox" onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='ale_02'>
+                  <input type="checkbox"onClick={(e) => handleoreChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='ale_03'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handlewoolChange(e.target.checked ? 1 : 0);
+                                    handlepaperChange(e.target.checked ? 1 : 0);
+
+                                  }} />
+                  </div>
+                  </div>{/*class ale_stages */}
+                  </div>{/*class ale_day */}
+                  <div className='ale_nigth'>
+                    <img src='/images/glass.png'
+                          className={`costicon${glass}`}
+                          onClick={() => handleglassChange(glass === 1 ? 0 : 1)}
+                          alt='glass' />
+                <div className='ale_stages'>
+                  <div className='ale_04'>
+                  <input type="checkbox"onClick={(e) => handleclayChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='ale_05'>
+                  <input type="checkbox"onClick={(e) => handleoreChange(e.target.checked ? 3 : 0) }/>
+                  </div>
+                  <div className='ale_06'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handlewoodChange(e.target.checked ? 4 : 0);
+                                  }
+                                  }/>
+                  </div>
+                  </div>{/*class ale_stages */}
+                  </div>{/*class ale_nigth */}
+                </div>{/*class alexandria */}
+                
               </div>{/*class form-wonders */}
               </AccordionTab>
               
