@@ -5037,7 +5037,7 @@
         "image": "/images/traders_guild.jpg"
     },
     {
-        "nombre": "craftsmen guild",
+        "nombre": "craftsmens guild",
         "tipo": {
             "estructura civil": 0,
             "estructura militar": 0,
@@ -5068,7 +5068,7 @@
             "2": 0
         },
         "cantidad": 1,
-        "image": "/images/craftsmen_guild.jpg"
+        "image": "/images/craftsmens_guild.jpg"
     },
     {
         "nombre": "workers guild",
@@ -5139,7 +5139,7 @@
         "image": "/images/magistrates_guild.jpg"
     },
     {
-        "nombre": "scientist guild",
+        "nombre": "scientists guild",
         "tipo": {
             "estructura civil": 0,
             "estructura militar": 0,
@@ -5170,7 +5170,7 @@
             "2": 0
         },
         "cantidad": 1,
-        "image": "/images/scientist_guild.jpg"
+        "image": "/images/scientists_guild.jpg"
     },
     {
         "nombre": "shipowners guild",
