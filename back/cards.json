@@ -4865,7 +4865,7 @@
         "image": "/images/ludus.jpg"
     },
     {
-        "nombre": "chamber of comerce",
+        "nombre": "chamber of commerce",
         "tipo": {
             "estructura civil": 0,
             "estructura militar": 0,
@@ -4897,10 +4897,10 @@
             "2": 0
         },
         "cantidad": 1,
-        "image": "/images/chamber_of_comerce.jpg"
+        "image": "/images/chamber_of_commerce.jpg"
     },
     {
-        "nombre": "chamber of comerce",
+        "nombre": "chamber of commerce",
         "tipo": {
             "estructura civil": 0,
             "estructura militar": 0,
@@ -4932,7 +4932,7 @@
             "2": 0
         },
         "cantidad": 1,
-        "image": "/images/chamber_of_comerce.jpg"
+        "image": "/images/chamber_of_commerce.jpg"
     },
     {
         "nombre": "spies guild",
