@@ -170,6 +170,7 @@ function App() {
             </div>{/* logo container */}
             <AccordionTab label="Form Wonders">
               <div className='form-wonders'>
+              
                 <div className='ephesos' >
                   <div className='ephesos_day'>
                   <img src='/images/paper.png'
@@ -353,7 +354,88 @@ function App() {
                   </div>{/*class ale_stages */}
                   </div>{/*class ale_nigth */}
                 </div>{/*class alexandria */}
+                <div className='rhodos'>
+
+                  <div className='rho_day'>
+                  <img src='/images/ore.png'
+                        className={`costicon${ore}`}
+                        onClick={() => handleoreChange(ore === 1 ? 0 : 1)}
+                        alt='ore' />
                 
+                  <div className='rho_stages'>
+                  <div className='rho_01'>
+                  <input type="checkbox" onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='rho_02'>
+                  <input type="checkbox"onClick={(e) => handleclayChange(e.target.checked ? 3 : 0)} />
+                  </div>
+                  <div className='rho_03'>
+                  <input type="checkbox" onClick={(e) => handleoreChange(e.target.checked ? 4 : 0)}/>
+                  </div>
+                  </div>{/*class rho_stages */}
+                  </div>{/*class rho_day */}
+                  <div className='rho_nigth'>
+                    <img src='/images/ore.png'
+                          className={`costicon${ore}`}
+                          onClick={() => handleoreChange(ore === 1 ? 0 : 1)}
+                          alt='ore' />
+                <div className='rho_stages'>
+                  <div className='rho_04'>
+                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 3 : 0)} />
+                  </div>
+                  <div className='rho_05'>
+                  <input type="checkbox"onClick={(e) => handleoreChange(e.target.checked ? 4 : 0) }/>
+                  </div>
+                  <div className='rho_06'>
+                    </div>
+                  </div>{/*class rho_stages */}
+                  </div>{/*class rho_nigth */}
+                </div>{/*class rhodos */}
+                <div className='babylon' >
+                  <div className='bab_day'>
+                  <img src='/images/wood.png'
+                        className={`costicon${wood}`}
+                        onClick={() => handlewoodChange(wood === 1 ? 0 : 1)}
+                        alt='wood' />
+                  
+                  <div className='bab_stages'>
+                  <div className='bab_01'>
+                  <input type="checkbox" onClick={(e) => handleclayChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='bab_02'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleoreChange(e.target.checked ? 2 : 0);
+                                    handlewoolChange(e.target.checked ? 1 : 0);
+                                  }} />
+                  </div>
+                  <div className='bab_03'>
+                  <input type="checkbox" onClick={(e) => handlewoodChange(e.target.checked ? 4 : 0)}/>
+                  </div>
+                  </div>{/*class bab_stages */}
+                  </div>{/*class bab_day */}
+                  <div className='bab_nigth'>
+                     <img src='/images/wood.png'
+                        className={`costicon${wood}`}
+                        onClick={() => handlewoodChange(wood === 1 ? 0 : 1)}
+                        alt='wood' />
+                <div className='bab_stages'>
+                  <div className='bab_04'>
+                 
+                  </div>
+                  <div className='bab_05'>
+                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 2 : 0)} />
+                  </div>
+                  <div className='bab_06'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleclayChange(e.target.checked ? 3 : 0);
+                                    handleglassChange(e.target.checked ? 1 : 0);
+                                  }} />
+                    </div>
+                  </div>{/*class bab_stages */}
+                  </div>{/*class bab_nigth */}
+                </div>{/*class babylon */}          
+                  
+
               </div>{/*class form-wonders */}
               </AccordionTab>
               

@@ -263,6 +263,96 @@
     height:100px; /* Adjust the height as needed */
     position: relative;
 }
+.rhodos {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid #ccc;
+    justify-content: space-evenly; /* Align items to the bottom */
+    align-items: center; /* Center items horizontally */
+    
+}
+.rho_day {
+    background-image: url('/images/rhodos_d.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 0px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Adjust the width as needed */
+    height:100px; /* Adjust the height as needed */
+    position: relative;
+   
+   
+}
+.rho_stages {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: absolute; /* Position it absolutely */
+    bottom: 0; /* Align it to the bottom */
+    width: 100%; /* Make it span the full width of the parent */
+}
+.rho_nigth {
+    background-image: url('/images/rhodos_n.jpg'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 0px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Adjust the width as needed */
+    height:100px; /* Adjust the height as needed */
+    position: relative;
+}
+.babylon {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid #ccc;
+    justify-content: space-evenly; /* Align items to the bottom */
+    align-items: center; /* Center items horizontally */
+    
+}
+.bab_day {
+    background-image: url('/images/babylon_d.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 0px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Adjust the width as needed */
+    height:100px; /* Adjust the height as needed */
+    position: relative;
+   
+   
+}
+.bab_stages {
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: flex-end;
+    position: absolute; /* Position it absolutely */
+    bottom: 0; /* Align it to the bottom */
+    width: 100%; /* Make it span the full width of the parent */
+}
+.bab_nigth {
+    background-image: url('/images/babylon_n.jpg'); /* Replace with your image path */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding: 0px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Adjust the width as needed */
+    height:100px; /* Adjust the height as needed */
+    position: relative;
+}
               
 .submitbutton {
     display: flex; 
