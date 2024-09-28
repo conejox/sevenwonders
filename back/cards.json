@@ -1749,8 +1749,8 @@
             "ciencia": 0
         },
         "coste": {
-            "pedra": 1,
-            "piedra": 0,
+        
+            "piedra": 1,
             "mineral": 0,
             "madera": 0,
             "arcilla": 0,
