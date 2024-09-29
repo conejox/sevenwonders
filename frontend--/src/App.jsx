@@ -433,7 +433,55 @@ function App() {
                     </div>
                   </div>{/*class bab_stages */}
                   </div>{/*class bab_nigth */}
-                </div>{/*class babylon */}          
+                </div>{/*class babylon */} 
+                <div className='gizah' >
+                  <div className='giz_day'>
+                  <img src='/images/stone.png'
+                        className={`costicon${stone}`}
+                        onClick={() => handlestoneChange(stone === 1 ? 0 : 1)}
+                        alt='stone' />
+                  
+                  <div className='giz_stages'>
+                  <div className='giz_01'>
+                  <input type="checkbox" onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)}/>
+                  </div>
+                  <div className='giz_02'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handleclayChange(e.target.checked ? 2 : 0);
+                                    handlewoolChange(e.target.checked ? 1 : 0);
+                                  }} />
+                  </div>
+                  <div className='giz_03'>
+                  <input type="checkbox" onClick={(e) => handlestoneChange(e.target.checked ? 4 : 0)}/>
+                  </div>
+                  </div>{/*class giz_stages */}
+                  </div>{/*class giz_day */}
+                  <div className='giz_nigth'>
+                    <img src='/images/stone.png'
+                          className={`costicon${stone}`}
+                          onClick={() => handlestoneChange(stone === 1 ? 0 : 1)}
+                          alt='stone' />   
+                <div className='giz_stages'>
+                  <div className='giz_04'>
+                  <input type="checkbox"onClick={(e) => handlewoodChange(e.target.checked ? 2 : 0)} /> 
+                  </div>
+                  <div className='giz_05'>
+                  <input type="checkbox"onClick={(e) => handlestoneChange(e.target.checked ? 3 : 0)} /> 
+                  </div>
+                  <div className='giz_06'>
+                  <input type="checkbox"onClick={(e) => handleclayChange(e.target.checked ? 3 : 0)} />
+                  </div>
+                  <div className='giz_07'>
+                  <input type="checkbox"onClick={(e) => {
+                                    handlestoneChange(e.target.checked ? 4 : 0);
+                                    handlepaperChange(e.target.checked ? 1 : 0);
+                                  }
+                                  }/>
+                  </div>
+                  </div>{/*class giz_stages */}
+                  </div>{/*class giz_nigth */}
+                </div>{/*class gizah */}
+                        
                   
 
               </div>{/*class form-wonders */}
