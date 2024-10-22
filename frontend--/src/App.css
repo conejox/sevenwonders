@@ -601,7 +601,7 @@ body {
   
   .tab-buttons {
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
   }
   
   .tab-buttons button {

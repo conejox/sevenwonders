@@ -166,7 +166,7 @@ function App() {
           <div className='toolbox'>
             <div className='logo-container'>
               <img src='/images/sev-logo-gold-16128779869FV5n-large.png'className='logo' alt='logo 7 wonders' />
-              <h1 className='card-filter'>Card Filter</h1>
+              <h1 className='card-filter'>Cards</h1>
             </div>{/* logo container */}
             <AccordionTab label="Form Wonders">
               <div className='form-wonders'>
